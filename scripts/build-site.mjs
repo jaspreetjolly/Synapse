@@ -859,7 +859,7 @@ function renderNoteHtml(data) {
     <article id="paper" class="paper"></article>
   </div>
   <script>
-    const pages = ${JSON.stringify(data.pages)};
+    let pages = {};
     const paper = document.getElementById("paper");
 
     function escapeHtml(value) {
@@ -896,8 +896,21 @@ function renderNoteHtml(data) {
       });
     }
 
+    async function loadPages() {
+      try {
+        const response = await fetch("graph-data.json", { cache: "no-store" });
+        if (!response.ok) throw new Error("Unable to load graph-data.json");
+        const graph = await response.json();
+        pages = graph.pages || {};
+        render();
+      } catch (error) {
+        document.title = "Synapse";
+        paper.innerHTML = "<div class='missing'><h1>Unable to load note content</h1><p>" + escapeHtml(error.message) + "</p></div>";
+      }
+    }
+
     window.addEventListener("hashchange", render);
-    render();
+    loadPages();
   </script>
 </body>
 </html>`;
