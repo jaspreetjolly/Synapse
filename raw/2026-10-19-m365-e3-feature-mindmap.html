@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"M365 E3 Overview","children":[{"content":"Office 365 E3 Features","children":[{"content":"Office Apps (Thick Client)","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"Exchange Online","children":[{"content":"100 GB mailbox","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"1.5 TB archive","children":[],"payload":{"tag":"li","lines":"6,7"}}],"payload":{"tag":"li","lines":"4,7"}},{"content":"OneDrive for Business (5 TB storage)","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"SharePoint Online (1 TB tenant + 10 GB/user pooled)","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Teams (Meetings, Chats, Webinars, Townhalls)","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Viva (seeded)","children":[{"content":"Engage","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"Connections","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Learning","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Personal Insights","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"10,15"}},{"content":"Stream (video portal)","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Planner, To Do, Forms, Lists","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Power Apps &amp; Power Automate (basic connectors)","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"Clipchamp (video editing)","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"Security","children":[{"content":"DLP for O365 (Exchange, SharePoint &amp; OneDrive)","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"Anti-malware (multi-engine)protection","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Anti-spam protection","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"eDiscovery, Content Search","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Retention Policies, Litigation Hold","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Microsoft Defender for Office Plan1","children":[{"content":"<a href=\"https://blogs.jaspreetjolly.com/mindmap/MDO_Plan1.html\">Click here for details</a>","children":[],"payload":{"tag":"li","lines":"26,27"}}],"payload":{"tag":"li","lines":"25,27"}}],"payload":{"tag":"li","lines":"19,27"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"EMS E3 Features","children":[{"content":"Entra ID Plan 1","children":[{"content":"Conditional Access","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"MFA","children":[],"payload":{"tag":"li","lines":"30,31"}},{"content":"SSO","children":[],"payload":{"tag":"li","lines":"31,32"}},{"content":"Self-service password reset (hybrid)","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"Group-based access (Dynamic Groups, Conditional Access, licensing, application access)","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"Application Proxy (secure remote access to on-premises web applications)","children":[],"payload":{"tag":"li","lines":"34,35"}},{"content":"Password Protection (Global &amp; Custom banned, Password spray attack)","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"Password Protection for ADDS","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Cloud App Discovery (Shadow IT visibility)","children":[],"payload":{"tag":"li","lines":"37,38"}}],"payload":{"tag":"li","lines":"28,38"}},{"content":"Intune Plan 1&amp;2","children":[{"content":"MDM (Cross Platform Endpoint Management)","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"MAM (App-level control)","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"Device configuration profiles (settings catalog, templates)","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"App Protection Policies","children":[],"payload":{"tag":"li","lines":"42,43"}},{"content":"Patch Management (Windows, Mac, Android &amp; iOS)","children":[],"payload":{"tag":"li","lines":"43,44"}},{"content":"Compliance Policies","children":[],"payload":{"tag":"li","lines":"44,45"}},{"content":"Remote actions &amp; user experience (Wipe, custom interface)","children":[],"payload":{"tag":"li","lines":"45,46"}},{"content":"Tunnel for MAM for secure per-app VPN.(Connectivity without enrollment)","children":[],"payload":{"tag":"li","lines":"46,47"}},{"content":"Specialty device management (Headsets and AR/VR devices. E.g. Apple Vision Pro, RealWear, and HTC devices,)","children":[],"payload":{"tag":"li","lines":"47,48"}},{"content":"Firmware over the air (FOTA)","children":[],"payload":{"tag":"li","lines":"48,49"}}],"payload":{"tag":"li","lines":"38,49"}},{"content":"Intune Remote Help","children":[],"payload":{"tag":"li","lines":"49,50"}},{"content":"Advanced Endpoint analytics","children":[],"payload":{"tag":"li","lines":"50,51"}},{"content":"Microsoft Information Protection Plan 1 (Manual labeling)","children":[],"payload":{"tag":"li","lines":"51,52"}},{"content":"Windows Server CAL rights","children":[],"payload":{"tag":"li","lines":"52,54"}}],"payload":{"tag":"h2","lines":"27,28"}},{"content":"ME3 Additional Features","children":[{"content":"\n<p data-lines=\"55,56\">Windows 11 Enterprise</p>","children":[{"content":"<a href=\"https://blogs.jaspreetjolly.com/mindmap/Windows%2011%20Enterprise.html\">Click here for details</a>","children":[],"payload":{"tag":"li","lines":"56,59"}}],"payload":{"tag":"li","lines":"55,59"}},{"content":"\n<p data-lines=\"59,60\">Microsoft Defender for Endpoint Plan1</p>","children":[{"content":"Attack Surface Reduction","children":[],"payload":{"tag":"li","lines":"60,61"}},{"content":"Web Protection &amp; Filtering","children":[],"payload":{"tag":"li","lines":"61,62"}},{"content":"Device Control (USB)","children":[],"payload":{"tag":"li","lines":"62,63"}},{"content":"Centralised AV management","children":[],"payload":{"tag":"li","lines":"63,64"}}],"payload":{"tag":"li","lines":"59,64"}},{"content":"\n<p data-lines=\"64,65\">Universal Print (100 Jobs per month)</p>","children":[],"payload":{"tag":"li","lines":"64,65"}},{"content":"\n<p data-lines=\"65,66\">Microsoft Loop (full workspaces)</p>","children":[],"payload":{"tag":"li","lines":"65,66"}}],"payload":{"tag":"h2","lines":"54,55"}}],"payload":{"tag":"h1","lines":"0,1"}},{})</script>
+</body>
+</html>

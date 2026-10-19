@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"\n<p data-lines=\"0,1\">Microsoft Defender for Office Plan1</p>","children":[{"content":"Threat Protection","children":[{"content":"Safe Attachments (incl. Teams)","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"Safe Links (incl. Teams)","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"Anti-Phishing (User &amp; Domain Impersonation)","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"Safe Attachments for SharePoint, OneDrive &amp; Teams","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Mail Hygiene","children":[{"content":"Zero-hour Auto Purge / ZAP (incl. Teams)","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Advanced Protection for Internal Mail","children":[],"payload":{"tag":"li","lines":"9,10"}}],"payload":{"tag":"li","lines":"7,10"}}],"payload":{"tag":"li","lines":"2,10"}},{"content":"Threat Investigation","children":[{"content":"Real-time Detections","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"Real-time Reports","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"10,13"}},{"content":"Policy &amp; Administration","children":[{"content":"Preset Security Policies (Standard / Strict)","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"Policy Tuning","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Configuration Analyzer","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Tenant Allow/Block List","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"13,18"}}],"payload":{"tag":"li","lines":"0,18"}},{})</script>
+</body>
+</html>

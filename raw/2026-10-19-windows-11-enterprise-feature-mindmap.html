@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://unpkg.com/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script><script src="https://unpkg.com/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://unpkg.com/markmap-toolbar@0.18.12/dist/index.js"></script><script>(r => {
+              setTimeout(r);
+            })(function renderToolbar() {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                document.documentElement.classList.add("markmap-dark");
+              }
+            })(() => window.markmap,null,{"content":"Windows 11 Enterprise","children":[{"content":"Windows 11 Enterprise Rights","children":[{"content":"Right to run up to 5 Windows environments","children":[{"content":"Local","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"AVD","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"Windows 365","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"On&#x2011;prem VDI (VDA)","children":[],"payload":{"tag":"li","lines":"8,10"}}],"payload":{"tag":"li","lines":"4,10"}}],"payload":{"tag":"h2","lines":"3,4"}},{"content":"Update Management &amp; Servicing","children":[{"content":"Windows Autopatch","children":[{"content":"Ring-based patching","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Measurable update currency target SLO","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Break&#x2011;glass controls (pause/rollback)","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"11,15"}},{"content":"36 months support on yearly feature updates","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Feature Update Pinning (up to 3 Years)","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Expedite Updates (zero&#x2011;day)","children":[],"payload":{"tag":"li","lines":"17,18"}},{"content":"Windows Hotpatch (reduced reboots)","children":[],"payload":{"tag":"li","lines":"18,20"}}],"payload":{"tag":"h2","lines":"10,11"}},{"content":"Device Resilience &amp; Recovery","children":[{"content":"Device Recovery","children":[{"content":"Quick machine recovery","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Point-in-time restore","children":[],"payload":{"tag":"li","lines":"23,25"}}],"payload":{"tag":"li","lines":"21,25"}}],"payload":{"tag":"h2","lines":"20,21"}},{"content":"Connectivity &amp; Remote Access","children":[{"content":"Always-on VPN (User &amp; Device Tunnel)","children":[],"payload":{"tag":"li","lines":"26,28"}}],"payload":{"tag":"h2","lines":"25,26"}},{"content":"Cloud Printing &amp; Device Services","children":[{"content":"Universal Print","children":[],"payload":{"tag":"li","lines":"29,31"}}],"payload":{"tag":"h2","lines":"28,29"}},{"content":"Security &amp; Protection","children":[{"content":"Credential Guard (memory isolation)","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"Personal Data Encryption","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"BitLocker &amp; BitLocker to Go &#x2013; Advanced Management","children":[{"content":"Enforce specific cipher","children":[],"payload":{"tag":"li","lines":"35,36"}},{"content":"Block writes to unencrypted removable media","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"Zero&#x2011;touch / silent BitLocker deployment","children":[],"payload":{"tag":"li","lines":"37,38"}},{"content":"Enforce TPM + PIN at pre&#x2011;boot","children":[],"payload":{"tag":"li","lines":"38,39"}},{"content":"Define PIN length / complexity","children":[],"payload":{"tag":"li","lines":"39,40"}},{"content":"Block encryption until keys escrowed in Entra ID","children":[],"payload":{"tag":"li","lines":"40,41"}},{"content":"Rotate keys via Intune","children":[],"payload":{"tag":"li","lines":"41,42"}},{"content":"Reporting &amp; auditing","children":[],"payload":{"tag":"li","lines":"42,44"}}],"payload":{"tag":"li","lines":"34,44"}}],"payload":{"tag":"h2","lines":"31,32"}},{"content":"Communication &amp; Experience","children":[{"content":"Organizational Messages (M365 Admin Center)","children":[],"payload":{"tag":"li","lines":"45,46"}}],"payload":{"tag":"h2","lines":"44,45"}}],"payload":{"tag":"h1","lines":"1,2"}},{})</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "synapse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "serve": "node scripts/serve-dist.mjs"
+  },
+  "dependencies": {
+    "marked": "^14.1.3"
+  }
+}
