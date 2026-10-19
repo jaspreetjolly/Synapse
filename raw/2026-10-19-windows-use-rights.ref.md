@@ -25,7 +25,3 @@ Target pages: [[windows-virtualization-rights]] · [[windows-11-enterprise]] · 
 - Product Terms: Windows Enterprise per-user users may run Windows 11 VMs in their own Azure accounts, accessing up to four instances. — same URL
 - Windows VDA (per device or per user) licenses access to virtual desktops from devices without qualifying Enterprise/VDA rights, e.g., thin clients. — https://learn.microsoft.com/en-us/windows/whats-new/windows-licensing
 
-## Contradictions / nuances with vault
-> [!warning] Vault: "up to 5 Windows environments per user: local, AVD, Windows 365, on-premises VDI (VDA)". Public sources say **five Windows instances/concurrent activated devices** per user (Product Terms frames it as five physical devices via Entra activation). AVD VMs are counted **separately** (don't consume the five), and virtual OSE rights (4 local / 4 remote) are separate clauses. The vault list also omits LTSC, which Microsoft's own example uses.
-
-> [!question] Windows 365 Enterprise is listed as an included "access right", but a Windows 365 Cloud PC still needs its own Windows 365 subscription. Confirm the vault wording doesn't imply Windows 365 is free with Windows Enterprise E3.

@@ -1,5 +1,5 @@
 ---
-title: Addendum — Universal Print licensing (verified 2026-10-19)
+title: Universal Print licensing (verified 2026-10-19)
 type: capture
 created: 2026-10-19
 updated: 2026-10-19
@@ -25,6 +25,3 @@ Target page: [[universal-print]]
 - Volume add-ons: 500 jobs (~$25/month list) and 10,000 jobs (~$300/month list), monthly billing on annual commitment, EDU discounts available; prices subject to change. — same URL
 - Product Terms list Universal Print Volume Add-ons as requiring an M365 A3/A5/E3/E5/F3/E7, Business Premium, Windows 11 Enterprise E3/E5, Education A3/A5 or Universal Print licence. — https://www.microsoft.com/licensing/terms/productoffering/WindowsDesktopOperatingSystem/EAEAS
 - Universal Print is listed as a Windows Enterprise cloud capability that also works on Windows Pro devices. — https://learn.microsoft.com/en-us/windows/whats-new/windows-licensing
-
-## Contradictions with vault
-> [!warning] Vault statement "Universal Print: 100 jobs per month" is **only true for Microsoft 365 E3/E5/Business Premium (and paid A3/A5)**. Windows Enterprise E3/E5, M365 F3 and standalone licences add only **5 jobs/month**. Also, jobs are **pooled per tenant**, not a per-user cap.
