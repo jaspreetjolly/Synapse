@@ -87,3 +87,7 @@ Append-only. Newest at the bottom. Format in [[AGENTS]] §5.
 ## [2026-10-19] fix | public-release scrub
 - touched: all pages that referenced source material
 - note: removed deck names, levels, slide references, presenter/partner names, customer identities and internal-only statistics; source summaries renamed to topic names; deck-specific raw references replaced by [[raw/2026-10-19-field-reference-material.ref.md]]
+
+## [2026-10-19] claim | BitLocker management licensing simplified
+- touched: [[bitlocker-advanced-management#claim-002]], [[windows-11-enterprise]], [[index]]
+- note: the edition-vs-licence warning was confusing. The page now states plainly, per Microsoft Learn "Configure BitLocker", that BitLocker management is entitled only by Windows Enterprise E3/E5 and Education A3/A5 (Pro: No). claim-002 set evergreen (0.97) with SME confirmation

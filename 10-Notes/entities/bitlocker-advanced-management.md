@@ -19,12 +19,15 @@ claims:
     updated: 2026-10-19
   - id: claim-002
     text: "BitLocker management (CSP settings beyond RequireDeviceEncryption) is licensed only with Windows Enterprise E3/E5 or Education A3/A5; a Windows Pro licence does not grant the management entitlement."
-    confidence: 0.9
-    status: provisional
+    confidence: 0.97
+    status: evergreen
     evidence:
       - source: raw/2026-10-19-bitlocker-advanced-management.ref.md
         kind: documentation
         excerpt: "BitLocker management licence table: Pro No; E3/E5/A3/A5 Yes. CSP note requires E3/E5 or A3/A5."
+      - source: "SME confirmation: Jaspreet Jolly, 2026-10-19"
+        kind: observation
+        excerpt: "Advanced BitLocker management requires Windows Enterprise E3/E5 or Education A3/A5 licensing"
     captured: 2026-10-19
     updated: 2026-10-19
   - id: claim-003
@@ -55,7 +58,7 @@ claims:
 
 ## What it is
 - **Enablement** means turning on full-volume encryption, including automatic *device encryption*.
-- **Management** means centrally enforcing *how* BitLocker is configured, plus reporting and recovery. Microsoft documents these two with **different licence rules**.
+- **Management** means centrally enforcing *how* BitLocker is configured, plus reporting and recovery. Turning BitLocker on is included with Pro; **management needs Windows Enterprise E3/E5 or Education A3/A5**.
 
 ## How it works (key Intune/CSP controls)
 | Control | CSP node / Intune setting |
@@ -73,14 +76,19 @@ claims:
 - Admins view keys in the Intune portal. Every key view is audited, and users can self-serve keys through Company Portal or My Account. Entra ID holds a maximum of 200 keys per device.
 
 ## Requirements & licensing
-| | Windows Pro / Pro Edu / SE | Windows Enterprise | Windows Education |
-|---|---|---|---|
-| BitLocker **enablement** – edition | ✅ | ✅ | ✅ |
-| BitLocker **enablement** – licence | ✅ Pro licence | ✅ E3/E5 | ✅ A3/A5 |
-| BitLocker **management** – edition (works technically) | ✅ | ✅ | ✅ |
-| BitLocker **management** – licence entitlement | ❌ Pro licence alone | ✅ Windows Enterprise E3/E5 ([[microsoft-365-e3]]/[[microsoft-365-e5]], also M365 F3) | ✅ A3/A5 |
+**Advanced (modern) BitLocker management requires a Windows Enterprise E3/E5 or Windows Education A3/A5 licence.** A Windows Pro licence does not include it.
 
-> [!warning] **Vault claim "advanced BitLocker management is an Enterprise (edition) differentiator" is only partly true.** Public docs show the BitLocker CSP works on **Pro** (since Windows 10 1809), and the licensing overview marks "Modern BitLocker Management" as **Pro ✅ / Enterprise ✅** for edition. The differentiator is the **user licence** (Windows Enterprise E3/E5 or A3/A5), **not the Enterprise edition/SKU**. The CSP doc says managing BitLocker via CSP, beyond enabling/disabling it with RequireDeviceEncryption, needs one of those licences "regardless of your management platform". This is a licensing requirement and isn't technically enforced on the device. Correct wording: "Requires Windows Enterprise E3/E5 licensing; runs on Pro or Enterprise edition."
+| Licence | BitLocker management entitlement |
+|---|---|
+| Windows Pro / Pro Education / SE | ❌ No |
+| Windows Enterprise E3 (incl. via [[microsoft-365-e3]]) | ✅ Yes |
+| Windows Enterprise E5 (incl. via [[microsoft-365-e5]]) | ✅ Yes |
+| Windows Education A3 | ✅ Yes |
+| Windows Education A5 | ✅ Yes |
+
+Source: Microsoft Learn, *Configure BitLocker*, section "Windows edition and licensing requirements" (learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/configure). Confirmed by Jaspreet (SME), 2026-10-19.
+
+- **What Pro includes:** turning BitLocker on (device encryption) only. The management controls listed above (cipher enforcement, TPM+PIN, escrow-before-encrypt, key rotation, removable-drive rules, reporting) need the E3/E5 or A3/A5 licence.
 
 ## Why it matters / customer talking points
 - Removes on-premises MBAM/key-escrow infrastructure. Recovery keys live in Entra ID with audit and self-service.
@@ -92,8 +100,6 @@ claims:
 - Silent encryption ignores warnings about third-party encryption, which risks data loss. Inventory first.
 - Security baselines that enable a TPM startup PIN block silent enablement.
 - Some settings are GPO-only (e.g., Network Unlock, PCR profiles).
-
-> [!question] Microsoft doesn't publish per-setting licence enforcement. Assume every CSP setting except RequireDeviceEncryption falls under the E3/A3 licensing note.
 
 ## Related
 [[personal-data-encryption]] · [[credential-guard]] · [[microsoft-intune]] · [[microsoft-entra-id]] · [[windows-11-enterprise]] · [[conditional-access]]

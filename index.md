@@ -41,7 +41,7 @@ Catalog of every wiki page. Agents read this first on every query. One line per 
 - [[always-on-vpn]] — user tunnel on all editions; device tunnel Enterprise/Education only
 - [[credential-guard]] — VBS isolation of credentials; Enterprise/Education only
 - [[personal-data-encryption]] — file-level encryption unlocked by WHfB; Enterprise/Education only
-- [[bitlocker-advanced-management]] — CSP/Intune BitLocker controls; runs on Pro but needs an E3/E5 licence
+- [[bitlocker-advanced-management]] — Intune/CSP BitLocker controls; requires Windows Enterprise E3/E5 or Education A3/A5 licence
 - [[organizational-messages]] — admin messages on Windows surfaces; Enterprise E3/E5
 
 ## Concepts

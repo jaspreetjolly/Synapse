@@ -72,7 +72,8 @@ The enterprise edition of Windows 11, included in [[microsoft-365-e3]] as an ME3
 
 > [!warning] **"Enterprise feature" can mean two different things. Be precise with customers:**
 > - **Needs the Enterprise or Education edition:** Credential Guard, Personal Data Encryption, the AOVPN device tunnel.
-> - **Runs on Pro but needs the Windows Enterprise E3/E5 licence:** advanced BitLocker management through CSP or Intune (everything beyond simply turning encryption on), Autopatch, expedited updates, Universal Print.
+> - **Runs on Pro but needs the Windows Enterprise E3/E5 licence:** Autopatch, expedited updates, Universal Print.
+> - **Needs a Windows Enterprise E3/E5 (or Education A3/A5) licence; a Pro licence is not entitled:** advanced BitLocker management ([[bitlocker-advanced-management]]).
 >
 > See [[bitlocker-advanced-management]].
 
