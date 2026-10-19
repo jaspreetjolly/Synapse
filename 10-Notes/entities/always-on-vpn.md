@@ -76,11 +76,6 @@ claims:
 | **Device tunnel** (pre-logon) | ❌ | ✅ | ✅ |
 | Licence | Pro licence covers VPN | E3/E5 (Enterprise edition needed for device tunnel) | A3/A5 |
 
-> [!warning] **Disputed vault claim resolved:** "Always-On VPN *user tunnel* is a Windows Enterprise differentiator" is **FALSE**. Microsoft Learn's device tunnel and Always On VPN overview pages say the user tunnel "is available in all Windows editions", and that **only the device tunnel** is limited to domain-joined **Enterprise or Education** devices. The Windows VPN technical guide's licensing table also shows VPN as Yes for Pro and for all licences. Only the **device tunnel** is an Enterprise/Education differentiator.
-
-> [!warning] The licensing overview is internally inconsistent. It lists "Always-On VPN device tunnel" as a unique Enterprise feature, but its edition table marks "Always On VPN" as Pro ✅ / Enterprise ✅. Read it as: the AOVPN platform works on Pro, but the device tunnel doesn't.
-
-> [!question] The device-tunnel docs still say "Windows 10 Enterprise or Education 1709+". The assumption that this carries over to Windows 11 Enterprise/Education is inferred from the "Applies to: Windows 11" banner, not stated explicitly.
 
 ## Why it matters / customer talking points
 - Pre-logon device tunnel enables first-time sign-in without cached credentials, password reset, GPO/Windows Update/ConfigMgr reach and manage-out for remote devices. This is the real Enterprise upsell.
