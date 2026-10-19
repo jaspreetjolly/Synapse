@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-19T09:10:03.826Z",
+  "generatedAt": "2026-10-19T09:15:46.322Z",
   "counts": {
     "notes": 61,
-    "nodes": 119,
+    "nodes": 117,
     "links": 851
   },
   "nodes": [
@@ -1258,24 +1258,6 @@
       "type": "meta",
       "group": "meta",
       "kind": "note",
-      "tags": []
-    },
-    {
-      "id": "asset:indexhtml",
-      "label": "index.html",
-      "path": "index.html",
-      "type": "asset",
-      "group": "asset",
-      "kind": "asset",
-      "tags": []
-    },
-    {
-      "id": "asset:notehtml",
-      "label": "note.html",
-      "path": "note.html",
-      "type": "asset",
-      "group": "asset",
-      "kind": "asset",
       "tags": []
     },
     {

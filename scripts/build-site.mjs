@@ -8,6 +8,7 @@ const outDir = path.join(root, "dist");
 const skippedDirs = new Set([".git", ".github", ".vscode", ".foam", ".copilot", "node_modules", "dist"]);
 const markdownExtensions = new Set([".md", ".markdown"]);
 const assetExtensions = new Set([".html", ".htm", ".pdf", ".pptx", ".docx", ".xlsx", ".png", ".jpg", ".jpeg", ".gif", ".svg"]);
+const generatedSiteFiles = new Set([".nojekyll", "graph-data.json", "index.html", "note.html"]);
 
 marked.use({
   mangle: false,
@@ -120,8 +121,9 @@ function createMarkdownRenderer(resolveLink) {
 }
 
 const allFiles = await walk(root);
-const markdownFiles = allFiles.filter((file) => markdownExtensions.has(path.extname(file).toLowerCase()));
-const assetFiles = allFiles.filter((file) => assetExtensions.has(path.extname(file).toLowerCase()));
+const sourceFiles = allFiles.filter((file) => !generatedSiteFiles.has(toPosix(path.relative(root, file))));
+const markdownFiles = sourceFiles.filter((file) => markdownExtensions.has(path.extname(file).toLowerCase()));
+const assetFiles = sourceFiles.filter((file) => assetExtensions.has(path.extname(file).toLowerCase()));
 
 const notes = [];
 const idByBasename = new Map();
