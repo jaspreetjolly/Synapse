@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [product, licensing, security]
-sources: ["[[raw/2026-10-19-intune-advanced-capabilities-e3-e5.ref.md]]", "[[summary-intune-vs-manageengine]]", "[[summary-m365-e3-feature-map]]"]
+sources: ["[[raw/2026-10-19-intune-advanced-capabilities-e3-e5.ref.md]]", "[[summary-intune-mdm-and-mam-for-m365-data]]", "[[summary-m365-e3-feature-map]]"]
 status: active
 ---
 
@@ -21,4 +21,4 @@ The identity and endpoint layer of [[microsoft-365-e3]].
 
 
 
-Sources: [[summary-m365-e3-feature-map]], [[summary-intune-vs-manageengine]]
+Sources: [[summary-m365-e3-feature-map]], [[summary-intune-mdm-and-mam-for-m365-data]]

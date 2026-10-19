@@ -1,16 +1,16 @@
 ---
-title: Summary — Windows Enterprise value prop: Intune standpoint
+title: Summary — Windows Enterprise capabilities managed with Intune
 type: summary
 created: 2026-10-19
 updated: 2026-10-19
 tags: [windows, intune, endpoint]
-sources: ["[[raw/2026-10-19-windows-11-enterprise-folder.ref.md]]"]
+sources: ["[[raw/2026-10-19-field-reference-material.ref.md]]"]
 status: active
 ---
 
-# Summary — Windows Enterprise value prop: Intune standpoint
+# Summary — Windows Enterprise capabilities managed with Intune
 
-**Source:** a Microsoft CAT (Customer Acceleration Team) deck, "Windows Enterprise value prop – Intune standpoint". Three near-identical copies exist (2025-04 to 2026-01); two were read and one timed out. The slides are mostly titles plus Microsoft Learn links. See [[raw/2026-10-19-windows-11-enterprise-folder.ref.md]].
+**Source:** non-public field reference material reviewed 2026-10-19 ([[raw/2026-10-19-field-reference-material.ref.md]]); facts below are restated in general terms. Most points map to Microsoft Learn articles.
 
 ## Key takeaways
 1. **Framing:** the choice depends on business needs, endpoint-management maturity and the wish to consolidate agents and vendors. The maturity path runs ConfigMgr on-premises → tenant attach → co-management → workloads moved to Intune → modern managed (cloud-native).
@@ -22,7 +22,7 @@ status: active
    - [[windows-autopatch]]
    - Connected Cache
    - BitLocker management
-   - driver and firmware servicing (hidden slides)
+   - driver and firmware servicing
    - Personal Data Encryption (Windows 11 22H2+, unlocked by WHfB)
    - Hotpatch
 3. **Autopatch division of labour:**

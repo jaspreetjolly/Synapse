@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [vendor, competitor, endpoint]
-sources: ["[[summary-intune-vs-manageengine]]"]
+sources: ["[[summary-intune-mdm-and-mam-for-m365-data]]"]
 status: active
 ---
 
@@ -16,4 +16,4 @@ A third-party UEM vendor, often met as a competitor to [[microsoft-intune]].
 - **Gap:** not an onboarded Microsoft compliance partner. It cannot write compliance state to Entra ID, so there is no require-compliant-device [[conditional-access]] on Android or iOS. It also offers nothing on unenrolled BYOD and no multi-identity. See [[device-compliance-signal-flow]].
 - **Positioning:** recommend co-existence for specialist estates; otherwise consolidate on Intune.
 
-Source: [[summary-intune-vs-manageengine]]
+Source: [[summary-intune-mdm-and-mam-for-m365-data]]

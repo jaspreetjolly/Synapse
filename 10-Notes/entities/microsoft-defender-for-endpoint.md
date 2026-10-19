@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [product, security, endpoint]
-sources: ["[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]"]
+sources: ["[[summary-copilot-security-with-o365-e1-plus]]", "[[summary-m365-e3-feature-map]]"]
 status: active
 ---
 
@@ -18,4 +18,4 @@ Microsoft's endpoint security platform. **Plan 1** ships in [[microsoft-365-e3]]
 
 **Copilot role (M365 E3):** antimalware, web and network protection, and manual blocking of discovered risky AI apps on [[windows-11-enterprise]] devices. M365 E5 moves this to XDR ([[copilot-security-readiness]]).
 
-Sources: [[summary-m365-e3-feature-map]], [[summary-elevate-security-for-copilot-e1-plus-deck]] · MOC: [[moc-microsoft-365-licensing]]
+Sources: [[summary-m365-e3-feature-map]], [[summary-copilot-security-with-o365-e1-plus]] · MOC: [[moc-microsoft-365-licensing]]

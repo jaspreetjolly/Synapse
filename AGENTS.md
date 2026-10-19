@@ -78,7 +78,7 @@ Rules:
 - `id` is unique within the page (`claim-001`, `claim-002`, …); cite elsewhere as `[[page#claim-001]]`.
 - One assertion per claim. `confidence` is 0.0–1.0: below 0.5 is a hunch, 0.5–0.8 is likely, above 0.8 is well supported.
 - `status`: `provisional` = new or single-source; `evergreen` = confirmed by 2+ sources or durable by nature; `disputed` = credible evidence on both sides.
-- Every `evidence.source` points to a file in `raw/`. `documentation` = official docs or specs; `quote` = a person's words; `observation` = something I saw first-hand.
+- Every `evidence.source` points to a file in `raw/`, **except** an SME confirmation, which is written as `source: "SME confirmation: <name>, <YYYY-MM-DD>"` with `kind: observation`. `documentation` = official docs or specs; `quote` = a person's words; `observation` = something seen first-hand or confirmed by the SME.
 - When new evidence conflicts, add it to the claim, set `status: disputed`, adjust `confidence`, bump `updated`, and log it. Never delete evidence.
 
 ## 4. Operations
@@ -141,3 +141,4 @@ Find all ingests: `grep "] ingest" log.md`.
 5. **Never touch raw.** Raw is append-only.
 6. **Show before saving** schema changes; wiki edits are reported after.
 7. **Update `updated:`** on every edit.
+8. **Corrections go into the original page.** When Jaspreet confirms, rules on or corrects something, edit the page(s) it affects: fix the text, add the confirmation as claim evidence (`SME confirmation: Jaspreet Jolly, <date>`), adjust the claim's status and confidence, and log it. **Never create a standalone note** for a ruling or confirmation, in `raw/` or anywhere else.

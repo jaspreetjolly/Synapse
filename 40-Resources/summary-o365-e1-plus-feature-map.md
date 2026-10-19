@@ -32,9 +32,9 @@ status: active
 - Manual retention labels (Exchange, SharePoint, Teams)
 
 ## Identity and device management
-- **[[microsoft-intune]]:** MDM, MAM, configuration profiles, app protection, patching, compliance policies, remote actions, Endpoint Analytics. The map does not name the plan; the deck says Plan 1.
+- **[[microsoft-intune]]:** MDM, MAM, configuration profiles, app protection, patching, compliance policies, remote actions, Endpoint Analytics. The map does not name the plan; field reference material says Plan 1.
 - **[[microsoft-entra-id]] P1:** [[conditional-access]], MFA, SSO, hybrid SSPR, group-based access, App Proxy, password protection (incl. AD DS), Cloud App Discovery.
 
-> [!warning] The map lists **Microsoft Teams** as included. The deck says Teams is a separate purchase for net-new customers ([[summary-elevate-security-for-copilot-e1-plus-deck]]). Treat Teams as dependent on the customer's agreement.
+> [!warning] The map lists **Microsoft Teams** as included. Field reference material says Teams is a separate purchase for net-new customers ([[summary-copilot-security-with-o365-e1-plus]]). Treat Teams as dependent on the customer's agreement.
 
 Related: [[moc-microsoft-365-licensing]] · [[moc-copilot-security-readiness]]

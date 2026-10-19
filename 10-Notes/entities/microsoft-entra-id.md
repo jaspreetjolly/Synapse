@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [product, identity, security]
-sources: ["[[raw/2026-10-19-jaspreet-rulings-licensing.md]]", "[[summary-o365-e1-plus-feature-map]]", "[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]"]
+sources: ["[[summary-o365-e1-plus-feature-map]]", "[[summary-copilot-security-with-o365-e1-plus]]", "[[summary-m365-e3-feature-map]]"]
 status: active
 ---
 
@@ -30,6 +30,6 @@ Microsoft's cloud identity service. **Plan 1** ships in [[ems-e3]].
 | Time-limited user access, e.g. Temporary Access Pass | ✅ | ✅ |
 | PIM / JIT privileged role activation | ❌ | ✅ |
 
-The risk-based and privileged-access rows are the E3 → E5 identity upgrade story ([[microsoft-365-e5]]). Source: Jaspreet's ruling, [[raw/2026-10-19-jaspreet-rulings-licensing.md]].
+The risk-based and privileged-access rows are the E3 → E5 identity upgrade story ([[microsoft-365-e5]]). Source: confirmed by Jaspreet (SME), 2026-10-19.
 
-Sources: [[summary-m365-e3-feature-map]], [[summary-o365-e1-plus-feature-map]], [[summary-elevate-security-for-copilot-e1-plus-deck]] · MOC: [[moc-microsoft-365-licensing]] · [[moc-copilot-security-readiness]]
+Sources: [[summary-m365-e3-feature-map]], [[summary-o365-e1-plus-feature-map]], [[summary-copilot-security-with-o365-e1-plus]] · MOC: [[moc-microsoft-365-licensing]] · [[moc-copilot-security-readiness]]

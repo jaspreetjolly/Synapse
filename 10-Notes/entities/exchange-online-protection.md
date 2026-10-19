@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [product, security, email-security]
-sources: ["[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-o365-e1-plus-feature-map]]", "[[summary-m365-e3-feature-map]]"]
+sources: ["[[summary-copilot-security-with-o365-e1-plus]]", "[[summary-o365-e1-plus-feature-map]]", "[[summary-m365-e3-feature-map]]"]
 status: active
 ---
 
@@ -15,4 +15,4 @@ Microsoft's cloud email filtering service against spam, malware, phishing and ot
 - **Layer 1** of [[email-and-collaboration-protection-layers]]; [[microsoft-defender-for-office-365]] builds on top of it.
 - **Step 3** ("protect against threats") in the E1 Plus Copilot journey ([[copilot-security-readiness]]).
 
-Sources: [[summary-elevate-security-for-copilot-e1-plus-deck]], [[summary-o365-e1-plus-feature-map]]
+Sources: [[summary-copilot-security-with-o365-e1-plus]], [[summary-o365-e1-plus-feature-map]]

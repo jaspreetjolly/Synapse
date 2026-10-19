@@ -32,8 +32,8 @@ status: active
 - [[summary-mdo-plan1-feature-map]]
 - [[summary-o365-e1-plus-feature-map]]
 - [[summary-windows-11-enterprise-feature-map]]
-- [[summary-elevate-security-for-copilot-e1-plus-deck]]
+- [[summary-copilot-security-with-o365-e1-plus]]
 
 ## Gaps
-- Official source still needed: Always-On VPN user tunnel on Pro
+- Autopatch on F3: two Microsoft Learn pages conflict ([[windows-autopatch#claim-002]])
 - Business Premium comparison; a dedicated E5 source

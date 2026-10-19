@@ -32,6 +32,17 @@ Catalog of every wiki page. Agents read this first on every query. One line per 
 - [[manageengine]] — third-party UEM competitor; no Entra compliance write, so no mobile device CA
 - [[copilot-plus-pc]] — 40+ TOPS NPU Windows PCs; Pluton and Secured-core by default
 - [[universal-print]] — cloud print with no servers; in Windows Enterprise
+- [[windows-hotpatch]] — security updates applied in memory without restarts
+- [[windows-expedited-updates]] — push a zero-day fix past deferrals via Intune/Autopatch
+- [[windows-feature-update-pinning]] — hold devices on a chosen Windows version
+- [[windows-enterprise-servicing-lifecycle]] — 36 vs 24 months; LTSC; Windows 10 end of support and ESU
+- [[quick-machine-recovery]] — WinRE pulls fixes from Windows Update for unbootable PCs
+- [[point-in-time-restore]] — full-system rollback to a restore point from the last 72 hours
+- [[always-on-vpn]] — user tunnel on all editions; device tunnel Enterprise/Education only
+- [[credential-guard]] — VBS isolation of credentials; Enterprise/Education only
+- [[personal-data-encryption]] — file-level encryption unlocked by WHfB; Enterprise/Education only
+- [[bitlocker-advanced-management]] — CSP/Intune BitLocker controls; runs on Pro but needs an E3/E5 licence
+- [[organizational-messages]] — admin messages on Windows surfaces; Enterprise E3/E5
 
 ## Concepts
 - [[m365-licensing-stack]] — M365 suites are built from smaller suites; explain them layer by layer
@@ -51,14 +62,14 @@ Catalog of every wiki page. Agents read this first on every query. One line per 
 - [[summary-mdo-plan1-feature-map]] — Defender for Office 365 Plan 1 capabilities
 - [[summary-o365-e1-plus-feature-map]] — Office 365 E1 Plus feature map
 - [[summary-windows-11-enterprise-feature-map]] — Windows 11 Enterprise feature map
-- [[summary-elevate-security-for-copilot-e1-plus-deck]] — Copilot security deck: five controls, E1 Plus/E3/E5 matrix; 3 claims (1 disputed)
-- [[summary-windows-11-enterprise-l100-deck]] — Microsoft L100 pitch: Copilot, Autopatch, Zero Trust, TEI figures
-- [[summary-windows-11-enterprise-secure-managed-cloud-ready]] — Pro vs Enterprise E3 datasheet, Autopatch rings, Expedite, AOVPN
-- [[summary-windows-enterprise-e3-sellers-training-2023]] — DATED: licensing mechanics, works-vs-licensed, objections
-- [[summary-windows-enterprise-value-prop-intune]] — Intune-surfaced Windows Enterprise capabilities
-- [[summary-secure-wfh-government-m365-e3]] — government WFH pitch on E3; 1 disputed claim
-- [[summary-intune-vs-manageengine]] — why M365 data protection needs Intune at MDM and MAM layers
-- [[summary-passwordless-journey-2022]] — DATED: passwordless readiness pattern
+- [[summary-copilot-security-with-o365-e1-plus]] — Copilot security readiness: five controls, E1 Plus/E3/E5 matrix; 3 claims (1 disputed)
+- [[summary-windows-11-enterprise-overview]] — Windows 11 Enterprise overview: Copilot, Autopatch, Zero Trust, TEI figures
+- [[summary-windows-pro-vs-enterprise-e3]] — Pro vs Enterprise E3 comparison, Autopatch rings, Expedite, AOVPN
+- [[summary-windows-enterprise-e3-licensing-2023]] — DATED: licensing mechanics, works-vs-licensed, common questions
+- [[summary-windows-enterprise-with-intune]] — Intune-surfaced Windows Enterprise capabilities
+- [[summary-secure-remote-work-m365-e3]] — public-sector secure remote work on E3; 1 disputed claim
+- [[summary-intune-mdm-and-mam-for-m365-data]] — why M365 data protection needs Intune at MDM and MAM layers
+- [[summary-passwordless-readiness-pattern]] — DATED: passwordless readiness pattern
 
 ## MOCs
 - [[home]] — landing page and entry points

@@ -4,7 +4,7 @@ type: concept
 created: 2026-10-19
 updated: 2026-10-19
 tags: [intune, identity, zero-trust]
-sources: ["[[summary-intune-vs-manageengine]]"]
+sources: ["[[summary-intune-mdm-and-mam-for-m365-data]]"]
 status: evergreen
 ---
 
@@ -21,4 +21,4 @@ status: evergreen
 - The [[microsoft-defender-for-endpoint]] risk score flows through the same path (Defender → Intune → Entra → CA) to block a high-risk device automatically.
 - On unenrolled BYOD, the equivalent control is "Require app protection policy" ([[mdm-vs-mam]]).
 
-Source: [[summary-intune-vs-manageengine]]
+Source: [[summary-intune-mdm-and-mam-for-m365-data]]

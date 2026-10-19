@@ -25,10 +25,10 @@ claims:
       - source: raw/2026-10-19-m365-e3-feature-mindmap.html
         kind: documentation
         excerpt: "OneDrive for Business (5 TB storage)"
-      - source: raw/2026-10-19-jaspreet-e3-storage-confirmation.md
+      - source: "SME confirmation: Jaspreet Jolly, 2026-10-19"
         kind: observation
         excerpt: "E3 storage is not unlimited its 5 TB"
-      - source: raw/2026-10-19-jaspreet-rulings-licensing.md
+      - source: "SME confirmation: Jaspreet Jolly, 2026-10-19"
         kind: observation
         excerpt: "OneDrive: 1 TB is the default and 5 TB the maximum"
     captured: 2026-10-19
@@ -38,15 +38,15 @@ claims:
     text: "Microsoft Tunnel for MAM (per-app VPN) is included in Microsoft 365 E3 via EMS E3 / Intune."
     confidence: 0.9
     status: evergreen
-    resolution: "Resolved 2026-10-19: map correct. Since July 2026, M365 E3 includes Intune Plan 2, which carries Tunnel for MAM. The ManageEngine deck predates the change."
+    resolution: "Resolved 2026-10-19: map correct. Since July 2026, M365 E3 includes Intune Plan 2, which carries Tunnel for MAM. Jaspreet's earlier Intune analysis predates the change."
     evidence:
       - source: raw/2026-10-19-m365-e3-feature-mindmap.html
         kind: documentation
         excerpt: "Tunnel for MAM for secure per-app VPN.(Connectivity without enrollment)"
-      - source: raw/2026-10-19-windows-11-enterprise-folder.ref.md
+      - source: raw/2026-10-19-field-reference-material.ref.md
         kind: documentation
         excerpt: "Intune-vs-ManageEngine: Cloud PKI and Tunnel ... Intune Suite add-on — not included in Microsoft 365 E3 or E5"
-      - source: raw/2026-10-19-jaspreet-rulings-licensing.md
+      - source: "SME confirmation: Jaspreet Jolly, 2026-10-19"
         kind: observation
         excerpt: "Tunnel for MAM in my mindmap show it under Intune itself. Map is correct"
       - source: raw/2026-10-19-intune-advanced-capabilities-e3-e5.ref.md
@@ -63,10 +63,10 @@ claims:
       - source: raw/2026-10-19-m365-e3-feature-mindmap.html
         kind: documentation
         excerpt: "Intune Plan 1&2"
-      - source: raw/2026-10-19-windows-11-enterprise-folder.ref.md
+      - source: raw/2026-10-19-field-reference-material.ref.md
         kind: documentation
         excerpt: "Intune-vs-ManageEngine: Microsoft Intune Plan 1 is included in Microsoft 365 E3, E5 and Business Premium"
-      - source: raw/2026-10-19-jaspreet-rulings-licensing.md
+      - source: "SME confirmation: Jaspreet Jolly, 2026-10-19"
         kind: observation
         excerpt: "now Intune Plan 2 is also part of ME3"
       - source: raw/2026-10-19-intune-advanced-capabilities-e3-e5.ref.md
@@ -126,10 +126,10 @@ claims:
 - Microsoft Loop (full workspaces).
 
 ## Open questions
-> [!note] **Resolved:** Tunnel for MAM (claim-003) and Intune Plan 2 (claim-004) are in E3 from July 2026, Intune Plan 2 being the licence that carries Tunnel ([[microsoft-intune-suite]]). The Intune-vs-ManageEngine deck was written before that change.
+> [!note] **Resolved:** Tunnel for MAM (claim-003) and Intune Plan 2 (claim-004) are in E3 from July 2026, Intune Plan 2 being the licence that carries Tunnel ([[microsoft-intune-suite]]). Jaspreet's Intune MDM/MAM analysis was written before that change.
 
 > [!note] **OneDrive settled:** **1 TB default, 5 TB maximum**, confirmed by Jaspreet on 2026-10-19 (claim-002).
-> [!note] **Storage settled:** OneDrive in M365 E3 is **5 TB**, confirmed by Jaspreet on 2026-10-19 (claim-002). The Copilot deck's "Unlimited" is out of date ([[summary-elevate-security-for-copilot-e1-plus-deck#claim-002]]).
+> [!note] **Storage settled:** OneDrive in M365 E3 is **5 TB**, confirmed by Jaspreet on 2026-10-19 (claim-002). The "Unlimited" figure in field reference material is out of date ([[summary-copilot-security-with-o365-e1-plus#claim-002]]).
 
 
 > [!note] **Resolved:** Defender for Office 365 **Plan 1** is in O365 E3 and M365 E3 from **1 July 2026**, per the Microsoft Learn service description (claim-005). E3 gets Plan 1 capabilities only.

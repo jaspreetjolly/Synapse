@@ -1,16 +1,16 @@
 ---
-title: Summary — Intune vs ManageEngine: endpoint data protection argument
+title: Summary — Intune MDM and MAM for Microsoft 365 data protection
 type: summary
 created: 2026-10-19
 updated: 2026-10-19
 tags: [intune, competitive, endpoint, security]
-sources: ["[[raw/2026-10-19-windows-11-enterprise-folder.ref.md]]"]
+sources: ["[[raw/2026-10-19-field-reference-material.ref.md]]"]
 status: active
 ---
 
-# Summary — Intune vs ManageEngine: endpoint data protection argument
+# Summary — Intune MDM and MAM for Microsoft 365 data protection
 
-**Source:** Jaspreet's own technical comparison deck, "Endpoint data protection for Microsoft 365 requires Intune at both layers: MDM and MAM", 15 slides with detailed notes, 2026-09. Every claim in it is sourced to Microsoft Learn, Apple Support or ManageEngine documentation. See [[raw/2026-10-19-windows-11-enterprise-folder.ref.md]].
+**Source:** Jaspreet's technical analysis, built from Microsoft Learn, Apple and vendor documentation ([[raw/2026-10-19-field-reference-material.ref.md]]); facts below are restated in general terms.
 
 ## Key takeaways
 1. **Enrolment is not enforcement.** In M365, [[conditional-access]] reads a compliance state on the Entra ID device object. Only Intune, or an onboarded compliance partner (Jamf, Ivanti, SOTI, Omnissa, Scalefusion and others), can write it. [[manageengine]] is **not** onboarded, and its own documentation limits third-party MDM CA to enrolled Windows 10+ devices. So it gives **no device-based CA on Android or iOS**. See [[device-compliance-signal-flow]].
@@ -35,8 +35,8 @@ status: active
   This needs Intune-managed devices on Android and iOS, and Entra-joined or hybrid-joined devices on Windows. Without Intune there is no automatic consequence.
 - **Windows-only stack:** security baselines, ASR, BitLocker escrow, Windows LAPS, EPM, Autopilot and Autopatch.
 - **Autopatch** needs Windows Enterprise E3, E5 or **F3**.
-- **Licensing on slides 10 and 14 is out of date.** The deck says Tunnel, Cloud PKI and EPM are Suite add-ons "not in E3 or E5". From July 2026, **Tunnel is in E3** and **Cloud PKI and EPM are in E5** ([[microsoft-intune-suite]]). **Update the deck:** this strengthens the argument, because the BYOD per-app VPN is now already licensed.
-- **Objections handled:**
+- **Earlier licensing statement is out of date.** Tunnel, Cloud PKI and EPM were described as Suite add-ons "not in E3 or E5". From July 2026, **Tunnel is in E3** and **Cloud PKI and EPM are in E5** ([[microsoft-intune-suite]]). This strengthens the argument, because the BYOD per-app VPN is now already licensed.
+- **Counter-arguments addressed:**
   - "enrol BYOD in ManageEngine"
   - "use IP-based CA" (IP is a location signal, not a trust signal)
   - "their console blocks copy-paste" (that is Intune APP through Graph)
@@ -47,6 +47,6 @@ status: active
 
 
 
-> [!note] **Confirmed:** Autopatch is available with F3, per Microsoft Learn ([[windows-autopatch#claim-002]]). This deck was right.
+> [!note] **Confirmed:** Autopatch is available with F3, per Microsoft Learn ([[windows-autopatch#claim-002]]). The analysis was right.
 
 Related: [[microsoft-intune]] · [[moc-windows-and-endpoint-management]]

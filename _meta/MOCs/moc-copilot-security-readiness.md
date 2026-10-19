@@ -27,8 +27,8 @@ status: active
 - [[office-365-e1-plus]] → [[microsoft-365-e3]] → [[microsoft-365-e5]]
 
 ## Sources
-- [[summary-elevate-security-for-copilot-e1-plus-deck]]
+- [[summary-copilot-security-with-o365-e1-plus]]
 
 ## Gaps
-- A dedicated M365 E5 source (the current page rests on deck speaker notes)
+- A dedicated M365 E5 source (the current page rests on field reference material)
 - Official Copilot data-protection terms

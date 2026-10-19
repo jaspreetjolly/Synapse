@@ -4,7 +4,7 @@ type: concept
 created: 2026-10-19
 updated: 2026-10-19
 tags: [copilot, security, zero-trust, licensing]
-sources: ["[[summary-elevate-security-for-copilot-e1-plus-deck]]"]
+sources: ["[[summary-copilot-security-with-o365-e1-plus]]"]
 status: active
 ---
 
@@ -12,7 +12,7 @@ status: active
 
 **Idea:** before (or while) rolling out [[microsoft-365-copilot]], put five [[zero-trust]] controls in place. The licence tier sets how deep each control goes.
 
-## The five controls (deck, slides 12–18)
+## The five controls
 | # | Control | Baseline product |
 |---|---|---|
 | 1 | Govern access to Copilot | [[microsoft-entra-id]] P1, [[conditional-access]], MFA, CAE |
@@ -31,7 +31,7 @@ Mature the five controls between the stages.
 | Tier | Positioning |
 |---|---|
 | [[office-365-e1-plus]] | **Baseline:** Conditional Access, DLP for email and files, unified endpoint management |
-| [[microsoft-365-e3]] | **Core / jumping-off point:** + Defender for Office 365 P1 (since July 2026; the deck predates this), manual labels, standard eDiscovery and audit, block risky AI apps on [[windows-11-enterprise]] via [[microsoft-defender-for-endpoint]] P1 |
+| [[microsoft-365-e3]] | **Core / jumping-off point:** + Defender for Office 365 P1 (since July 2026; earlier material predates this), manual labels, standard eDiscovery and audit, block risky AI apps on [[windows-11-enterprise]] via [[microsoft-defender-for-endpoint]] P1 |
 | [[microsoft-365-e5]] | **Best:** Entra ID Protection risk-based access, automatic labels, communication compliance, Defender for Cloud Apps (block or sanction AI apps), Defender XDR |
 
-**Talk-track use:** open with "Copilot inherits your existing controls", then show where the customer sits on the ladder. Detail: [[summary-elevate-security-for-copilot-e1-plus-deck]].
+**Talk-track use:** open with "Copilot inherits your existing controls", then show where the customer sits on the ladder. Detail: [[summary-copilot-security-with-o365-e1-plus]].

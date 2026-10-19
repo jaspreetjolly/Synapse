@@ -1,16 +1,16 @@
 ---
-title: Summary — Passwordless journey session (Sept 2022)
+title: Summary — Passwordless readiness pattern
 type: summary
 created: 2026-10-19
 updated: 2026-10-19
-tags: [identity, passwordless, partner]
-sources: ["[[raw/2026-10-19-windows-11-enterprise-folder.ref.md]]"]
+tags: [identity, passwordless]
+sources: ["[[raw/2026-10-19-field-reference-material.ref.md]]"]
 status: stale
 ---
 
-# Summary — Passwordless journey session (Sept 2022)
+# Summary — Passwordless readiness pattern
 
-**Source:** a partner-delivered session (Sept 2022, 6 slides) assessing passwordless readiness for an enterprise customer. Customer environment figures are deliberately **not** recorded here. See [[raw/2026-10-19-windows-11-enterprise-folder.ref.md]].
+**Source:** non-public field reference material reviewed 2026-10-19 ([[raw/2026-10-19-field-reference-material.ref.md]]); facts below are restated in general terms. The material dates from September 2022; customer environment figures are deliberately **not** recorded.
 
 ## Key takeaways
 1. **Definition:** remove the password entirely. Users sign in with Microsoft Authenticator, [[windows-hello-for-business]], a FIDO2 security key, or a one-time code.

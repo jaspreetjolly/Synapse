@@ -1,5 +1,5 @@
 ---
-title: Reference — Microsoft Learn: Windows Autopatch prerequisites
+title: "Reference — Microsoft Learn: Windows Autopatch prerequisites"
 type: capture
 created: 2026-10-19
 updated: 2026-10-19

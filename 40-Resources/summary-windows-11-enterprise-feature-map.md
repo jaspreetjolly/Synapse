@@ -20,14 +20,14 @@ status: active
 ## Capabilities
 | Area | What the map lists |
 |---|---|
-| Rights | Up to 5 Windows environments: local, AVD, Windows 365, on-premises VDI (VDA) |
-| Update management | [[windows-autopatch]] (ring-based patching, update-currency SLO, pause and rollback); 36-month support; feature update pinning (up to 3 years); expedited updates; Windows Hotpatch |
-| Resilience | Quick machine recovery; point-in-time restore |
-| Connectivity | Always-on VPN (user and device tunnel) — see [[windows-11-enterprise#claim-001]] |
-| Printing | Universal Print |
-| Security | Credential Guard; Personal Data Encryption; BitLocker and BitLocker To Go advanced management: enforce cipher, block writes to unencrypted removable media, silent deployment, TPM + PIN pre-boot, PIN complexity, block encryption until keys are escrowed in [[microsoft-entra-id]], key rotation via [[microsoft-intune]], reporting |
-| Experience | Organizational Messages (M365 admin center) |
+| Rights | Up to 5 Windows environments: local, AVD, Windows 365, on-premises VDI (VDA). See [[windows-virtualization-rights]]; the public terms frame it differently. |
+| Update management | [[windows-autopatch]] (ring-based patching, update-currency SLO, pause and rollback); 36-month support ([[windows-enterprise-servicing-lifecycle]]); feature update pinning, up to 3 years ([[windows-feature-update-pinning]]); expedited updates ([[windows-expedited-updates]]); Windows Hotpatch ([[windows-hotpatch]]) |
+| Resilience | [[quick-machine-recovery]]; [[point-in-time-restore]] |
+| Connectivity | [[always-on-vpn]]: user and device tunnel. **Only the device tunnel is Enterprise-only**; the user tunnel works on Pro ([[windows-11-enterprise#claim-001]]). |
+| Printing | [[universal-print]] |
+| Security | [[credential-guard]]; [[personal-data-encryption]]; [[bitlocker-advanced-management]]: BitLocker and BitLocker To Go advanced management: enforce cipher, block writes to unencrypted removable media, silent deployment, TPM + PIN pre-boot, PIN complexity, block encryption until keys are escrowed in [[microsoft-entra-id]], key rotation via [[microsoft-intune]], reporting |
+| Experience | [[organizational-messages]] (M365 admin center) |
 
-> [!note] **Corroborated** by the 2026 Microsoft decks ([[summary-windows-11-enterprise-secure-managed-cloud-ready]], [[summary-windows-11-enterprise-l100-deck]]): 5 instances, Autopatch rings, 36-month support, Expedite, Hotpatch, QMR and PITR, BitLocker controls, Credential Guard, PDE, Universal Print, org messages. Pinning: "up to 3 years" here and "1,060 days" there are the same limit.
+> [!note] **Corroborated** by 2026 field reference material ([[summary-windows-pro-vs-enterprise-e3]], [[summary-windows-11-enterprise-overview]]): 5 instances, Autopatch rings, 36-month support, Expedite, Hotpatch, QMR and PITR, BitLocker controls, Credential Guard, PDE, Universal Print, org messages. Pinning: "up to 3 years" here and "1,060 days" there are the same limit.
 
 Entity: [[windows-11-enterprise]] · Suite: [[microsoft-365-e3]] · MOC: [[moc-microsoft-365-licensing]]

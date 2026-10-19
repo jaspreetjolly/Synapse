@@ -19,6 +19,12 @@ status: active
 - [[windows-hello-for-business]] · [[passwordless-authentication]]
 - [[universal-print]] · [[copilot-plus-pc]]
 
+## Windows 11 Enterprise features (public sources)
+- **Servicing:** [[windows-enterprise-servicing-lifecycle]] · [[windows-feature-update-pinning]] · [[windows-expedited-updates]] · [[windows-hotpatch]]
+- **Resilience:** [[quick-machine-recovery]] · [[point-in-time-restore]]
+- **Security:** [[credential-guard]] · [[personal-data-encryption]] · [[bitlocker-advanced-management]]
+- **Connectivity and experience:** [[always-on-vpn]] · [[organizational-messages]]
+
 ## Endpoint management
 - [[microsoft-intune]] · [[microsoft-intune-suite]] · [[mdm-vs-mam]]
 - Competitor: [[manageengine]]
@@ -26,14 +32,15 @@ status: active
 
 ## Sources
 - [[summary-windows-11-enterprise-feature-map]]
-- [[summary-windows-11-enterprise-l100-deck]]
-- [[summary-windows-11-enterprise-secure-managed-cloud-ready]]
-- [[summary-windows-enterprise-value-prop-intune]]
-- [[summary-windows-enterprise-e3-sellers-training-2023]] (dated)
-- [[summary-intune-vs-manageengine]]
-- [[summary-secure-wfh-government-m365-e3]]
-- [[summary-passwordless-journey-2022]] (dated)
+- [[summary-windows-11-enterprise-overview]]
+- [[summary-windows-pro-vs-enterprise-e3]]
+- [[summary-windows-enterprise-with-intune]]
+- [[summary-windows-enterprise-e3-licensing-2023]] (dated)
+- [[summary-intune-mdm-and-mam-for-m365-data]]
+- [[summary-secure-remote-work-m365-e3]]
+- [[summary-passwordless-readiness-pattern]] (dated)
 
 ## Gaps
-- The Windows 11 Enterprise L200 deck (too large to copy)
-- An official Windows Enterprise E3/E5 and F3 licensing source, to settle the Autopatch-on-F3 conflict
+- Further Windows 11 Enterprise reference material (not yet reviewed)
+- Autopatch on F3: two Microsoft Learn pages conflict ([[windows-autopatch#claim-002]]). Check the Product Terms.
+- The 1,060-day pinning figure isn't in public docs ([[windows-feature-update-pinning]])

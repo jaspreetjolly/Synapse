@@ -4,7 +4,7 @@ type: concept
 created: 2026-10-19
 updated: 2026-10-19
 tags: [security, email-security]
-sources: ["[[raw/2026-10-19-ms-learn-mdo-service-description.ref.md]]", "[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]", "[[summary-mdo-plan1-feature-map]]"]
+sources: ["[[raw/2026-10-19-ms-learn-mdo-service-description.ref.md]]", "[[summary-copilot-security-with-o365-e1-plus]]", "[[summary-m365-e3-feature-map]]", "[[summary-mdo-plan1-feature-map]]"]
 status: draft
 ---
 
