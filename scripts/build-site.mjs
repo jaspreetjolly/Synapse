@@ -631,11 +631,13 @@ function renderHtml(data) {
     const nodes = graph.nodes.map(node => ({ ...node }));
 
     const simulation = d3.forceSimulation(nodes)
-      .velocityDecay(0.34)
-      .force("link", d3.forceLink(links).id(d => d.id).distance(d => d.type === "tag" ? 105 : 165).strength(0.28))
-      .force("charge", d3.forceManyBody().strength(-620).distanceMax(900))
-      .force("center", d3.forceCenter(width() / 2, height() / 2))
-      .force("collision", d3.forceCollide().radius(d => radius(d) + 18).strength(0.9));
+      .velocityDecay(0.3)
+      .force("link", d3.forceLink(links).id(d => d.id).distance(230).strength(0.18))
+      .force("charge", d3.forceManyBody().strength(-980).distanceMax(1500))
+      .force("center", d3.forceCenter(width() / 2, height() / 2).strength(0.025))
+      .force("x", d3.forceX(width() / 2).strength(0.018))
+      .force("y", d3.forceY(height() / 2).strength(0.018))
+      .force("collision", d3.forceCollide().radius(d => radius(d) + 28).strength(0.95));
 
     const link = zoomLayer.append("g")
       .attr("stroke", "rgba(190,200,210,0.35)")
@@ -664,7 +666,7 @@ function renderHtml(data) {
       .attr("x", d => radius(d) + 5)
       .attr("y", "0.35em")
       .attr("fill", d => color[d.type] || color.note)
-      .attr("font-size", d => d.kind === "tag" ? 16 : 15)
+      .attr("font-size", 13)
       .attr("paint-order", "stroke")
       .attr("stroke", "#151719")
       .attr("stroke-width", 4);
@@ -697,7 +699,7 @@ function renderHtml(data) {
 
     function radius(d) {
       const degree = graph.links.filter(link => link.source === d.id || link.target === d.id || link.source.id === d.id || link.target.id === d.id).length;
-      return Math.max(7, Math.min(34, 7 + degree * 2.1));
+      return Math.max(5, Math.min(24, 5 + degree * 1.35));
     }
 
     function dragstarted(event, d) {
@@ -719,12 +721,18 @@ function renderHtml(data) {
 
     document.getElementById("reset").addEventListener("click", () => {
       nodes.forEach(d => { d.fx = null; d.fy = null; });
-      simulation.force("center", d3.forceCenter(width() / 2, height() / 2));
+      simulation
+        .force("center", d3.forceCenter(width() / 2, height() / 2).strength(0.025))
+        .force("x", d3.forceX(width() / 2).strength(0.018))
+        .force("y", d3.forceY(height() / 2).strength(0.018));
       simulation.alpha(1).restart();
     });
 
     window.addEventListener("resize", () => {
-      simulation.force("center", d3.forceCenter(width() / 2, height() / 2));
+      simulation
+        .force("center", d3.forceCenter(width() / 2, height() / 2).strength(0.025))
+        .force("x", d3.forceX(width() / 2).strength(0.018))
+        .force("y", d3.forceY(height() / 2).strength(0.018));
       simulation.alpha(0.5).restart();
     });
 
