@@ -34,5 +34,6 @@ Start here.
 ## Topic MOCs
 - [[moc-microsoft-365-licensing]] — E1 Plus, M365 E3, EMS, Entra, Intune, Defender, Windows
 - [[moc-copilot-security-readiness]] — Zero Trust controls and licence tiers for Copilot
+- [[moc-windows-and-endpoint-management]] — Windows 11 Enterprise, Autopatch, Intune, passwordless, competitors
 
 _Add a MOC here when a topic reaches 5+ notes._

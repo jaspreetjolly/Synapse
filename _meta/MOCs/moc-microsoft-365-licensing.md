@@ -21,7 +21,8 @@ status: active
 ## Products
 - Identity: [[microsoft-entra-id]] → [[conditional-access]]
 - Endpoint: [[microsoft-intune]] → [[mdm-vs-mam]]; [[microsoft-defender-for-endpoint]]
-- Windows: [[windows-11-enterprise]] → [[windows-autopatch]]
+- Windows: [[windows-11-enterprise]] → [[windows-autopatch]] · [[windows-virtualization-rights]] — full map: [[moc-windows-and-endpoint-management]]
+- Add-ons: [[microsoft-intune-suite]]
 - Data: [[microsoft-purview]]
 - AI: [[microsoft-365-copilot]] → [[moc-copilot-security-readiness]]
 - Email and collaboration security: [[exchange-online-protection]] → [[microsoft-defender-for-office-365]] → [[email-and-collaboration-protection-layers]]
@@ -34,4 +35,5 @@ status: active
 - [[summary-elevate-security-for-copilot-e1-plus-deck]]
 
 ## Gaps
+- Official source still needed: Always-On VPN user tunnel on Pro
 - Business Premium comparison; a dedicated E5 source

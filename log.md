@@ -47,3 +47,27 @@ Append-only. Newest at the bottom. Format in [[AGENTS]] §5.
 ## [2026-10-19] fix | Copilot deck re-read
 - touched: [[summary-elevate-security-for-copilot-e1-plus-deck]], [[microsoft-365-e5]], [[copilot-security-readiness]], [[enterprise-data-protection]], [[microsoft-entra-id]], [[office-365-e1-plus]], [[microsoft-365-copilot]], [[moc-copilot-security-readiness]], [[moc-microsoft-365-licensing]], [[index]]
 - note: first pass truncated speaker notes and missed the image-based slide 7 ticks; re-read the full notes, nested shapes and a rendered slide 7; added the comparison table, staged rollout, CAE triggers, E5 tier, discovery questions; flagged the outdated "free during preview" note
+
+## [2026-10-19] claim | E3 storage resolved
+- touched: raw/2026-10-19-jaspreet-e3-storage-confirmation.md, [[summary-m365-e3-feature-map#claim-002]], [[summary-elevate-security-for-copilot-e1-plus-deck#claim-002]]
+- note: Jaspreet confirmed M365 E3 storage is 5 TB; new evergreen claim (0.9) on the E3 summary; the deck's "Unlimited" claim refuted (0.05) and kept with its evidence
+
+## [2026-10-19] claim | E3 storage caveat
+- touched: [[summary-m365-e3-feature-map#claim-002]], [[office-365-e3]]
+- note: added a caveat that the 5 TB is a maximum and the default OneDrive quota is 1 TB per user, raised by an admin; flagged as unverified general knowledge pending a raw source
+
+## [2026-10-19] ingest | Windows 11 Enterprise folder (10 of 12 decks)
+- touched: raw/2026-10-19-windows-11-enterprise-folder.ref.md, [[summary-windows-11-enterprise-l100-deck]], [[summary-windows-11-enterprise-secure-managed-cloud-ready]], [[summary-windows-enterprise-e3-sellers-training-2023]], [[summary-windows-enterprise-value-prop-intune]], [[summary-secure-wfh-government-m365-e3]], [[summary-intune-vs-manageengine]], [[summary-passwordless-journey-2022]], [[windows-hello-for-business]], [[microsoft-intune-suite]], [[manageengine]], [[copilot-plus-pc]], [[universal-print]], [[passwordless-authentication]], [[device-compliance-signal-flow]], [[windows-enterprise-servicing]], [[windows-virtualization-rights]], [[moc-windows-and-endpoint-management]], [[windows-11-enterprise]], [[windows-autopatch]], [[microsoft-intune]], [[ems-e3]], [[microsoft-365-e3]], [[microsoft-365-copilot]], [[enterprise-data-protection]], [[mdm-vs-mam]], [[conditional-access]], [[zero-trust]], [[summary-m365-e3-feature-map]], [[summary-windows-11-enterprise-feature-map]], [[moc-microsoft-365-licensing]], [[home]], [[index]]
+- note: 18 new files, 16 updated; originals referenced in place (not copied); L200 deck too large, one ValueProp copy timed out; customer specifics kept out of the pages
+
+## [2026-10-19] claim | contradictions from the Windows folder
+- touched: [[summary-m365-e3-feature-map#claim-003]], [[summary-m365-e3-feature-map#claim-004]], [[windows-autopatch#claim-002]], [[windows-11-enterprise#claim-001]], [[windows-11-enterprise#claim-002]], [[enterprise-data-protection#claim-001]], [[summary-secure-wfh-government-m365-e3#claim-001]]
+- note: 7 disputed claims opened (Tunnel in E3, Intune P2 in E3, Autopatch on F3, AOVPN user tunnel, Defender Application Guard, Copilot Chat retention, ID Protection/JIT in E3); awaiting Jaspreet's rulings
+
+## [2026-10-19] claim | Jaspreet's rulings on the Windows-folder contradictions
+- touched: [[summary-m365-e3-feature-map#claim-003]], [[summary-m365-e3-feature-map#claim-004]], [[summary-m365-e3-feature-map#claim-002]], [[windows-autopatch#claim-002]], [[windows-11-enterprise#claim-002]], [[enterprise-data-protection#claim-001]], [[summary-secure-wfh-government-m365-e3#claim-001]], [[ems-e3]], [[microsoft-intune-suite]], [[microsoft-intune]], [[mdm-vs-mam]], [[summary-intune-vs-manageengine]], [[summary-windows-enterprise-e3-sellers-training-2023]], [[windows-11-enterprise]], [[summary-windows-11-enterprise-secure-managed-cloud-ready]], [[windows-enterprise-servicing]], [[summary-windows-11-enterprise-feature-map]], [[summary-windows-11-enterprise-l100-deck]], [[microsoft-entra-id]], [[microsoft-365-e5]], [[microsoft-purview]], [[office-365-e3]], [[moc-microsoft-365-licensing]], [[index]], raw/2026-10-19-jaspreet-rulings-licensing.md, raw/2026-10-19-intune-advanced-capabilities-e3-e5.ref.md, raw/2026-10-19-ms-learn-autopatch-prerequisites.ref.md, raw/2026-10-19-ms-learn-point-in-time-restore.ref.md
+- note: Intune P2 and Tunnel in E3 (validated on the web: July 2026 change); Autopatch on F3 (MS Learn); Copilot Chat retained in a mailbox Substrate folder; ID Protection/JIT split P1 vs P2; Application Guard deprecated; pinning up to 3 years = 1,060 days; Copilot Chat model warning removed; OneDrive 1 TB default / 5 TB max; PITR per MS Learn; manual labels AIP P1/E3, auto AIP P2/E5. Still open: AOVPN user tunnel, MDO P1 in O365 E3
+
+## [2026-10-19] claim | Defender for Office 365 P1 in E3 resolved
+- touched: raw/2026-10-19-ms-learn-mdo-service-description.ref.md, [[summary-m365-e3-feature-map#claim-005]], [[office-365-e3]], [[microsoft-defender-for-office-365]], [[email-and-collaboration-protection-layers]], [[summary-mdo-plan1-feature-map]], [[microsoft-365-e3]], [[copilot-security-readiness]], [[moc-microsoft-365-licensing]], [[index]]
+- note: Microsoft Learn MDO service description: P1 included in O365 E3 and M365 E3 effective 1 Jul 2026 (P1 capabilities only; P2 stays E5). Last open item: AOVPN user tunnel on Pro

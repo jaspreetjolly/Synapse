@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [product, identity, security]
-sources: ["[[summary-o365-e1-plus-feature-map]]", "[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]"]
+sources: ["[[raw/2026-10-19-jaspreet-rulings-licensing.md]]", "[[summary-o365-e1-plus-feature-map]]", "[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]"]
 status: active
 ---
 
@@ -19,5 +19,17 @@ Microsoft's cloud identity service. **Plan 1** ships in [[ems-e3]].
 **Copilot role** (control 1 of [[copilot-security-readiness]]): a single managed identity; [[conditional-access]] evaluates user, group, IP location, device state and app; Continuous Access Evaluation (CAE) revokes tokens on critical events: user termination, password change or reset, network location change, token revocation. Policy is enforced without waiting for the token to expire. P1 also defends against password spray, replay and phishing. Cloud App Discovery assesses 400+ AI apps from uploaded network logs.
 
 **Above P1 (in [[microsoft-365-e5]]):** Entra ID Protection feeds user and sign-in risk into Conditional Access.
+
+## P1 (M365 E3) vs P2 (M365 E5)
+| Capability | Entra ID P1 / M365 E3 | Entra ID P2 / M365 E5 |
+|---|---|---|
+| Identity Protection visibility | ✅ Limited | ✅ Full |
+| Risky-user information | ✅ Limited data | ✅ Full risk details |
+| Risk-based Conditional Access (user risk or sign-in risk) | ❌ | ✅ |
+| Automated risk remediation | ❌ | ✅ |
+| Time-limited user access, e.g. Temporary Access Pass | ✅ | ✅ |
+| PIM / JIT privileged role activation | ❌ | ✅ |
+
+The risk-based and privileged-access rows are the E3 → E5 identity upgrade story ([[microsoft-365-e5]]). Source: Jaspreet's ruling, [[raw/2026-10-19-jaspreet-rulings-licensing.md]].
 
 Sources: [[summary-m365-e3-feature-map]], [[summary-o365-e1-plus-feature-map]], [[summary-elevate-security-for-copilot-e1-plus-deck]] · MOC: [[moc-microsoft-365-licensing]] · [[moc-copilot-security-readiness]]

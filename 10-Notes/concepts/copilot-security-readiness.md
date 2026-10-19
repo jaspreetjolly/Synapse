@@ -31,7 +31,7 @@ Mature the five controls between the stages.
 | Tier | Positioning |
 |---|---|
 | [[office-365-e1-plus]] | **Baseline:** Conditional Access, DLP for email and files, unified endpoint management |
-| [[microsoft-365-e3]] | **Core / jumping-off point:** + manual labels, standard eDiscovery and audit, block risky AI apps on [[windows-11-enterprise]] via [[microsoft-defender-for-endpoint]] P1 |
+| [[microsoft-365-e3]] | **Core / jumping-off point:** + Defender for Office 365 P1 (since July 2026; the deck predates this), manual labels, standard eDiscovery and audit, block risky AI apps on [[windows-11-enterprise]] via [[microsoft-defender-for-endpoint]] P1 |
 | [[microsoft-365-e5]] | **Best:** Entra ID Protection risk-based access, automatic labels, communication compliance, Defender for Cloud Apps (block or sanction AI apps), Defender XDR |
 
 **Talk-track use:** open with "Copilot inherits your existing controls", then show where the customer sits on the ladder. Detail: [[summary-elevate-security-for-copilot-e1-plus-deck]].

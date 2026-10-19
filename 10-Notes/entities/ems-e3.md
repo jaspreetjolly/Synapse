@@ -4,7 +4,7 @@ type: entity
 created: 2026-10-19
 updated: 2026-10-19
 tags: [product, licensing, security]
-sources: ["[[summary-m365-e3-feature-map]]"]
+sources: ["[[raw/2026-10-19-intune-advanced-capabilities-e3-e5.ref.md]]", "[[summary-intune-vs-manageengine]]", "[[summary-m365-e3-feature-map]]"]
 status: active
 ---
 
@@ -17,6 +17,8 @@ The identity and endpoint layer of [[microsoft-365-e3]].
 - **Information protection:** MIP Plan 1 (manual labeling)
 - **Rights:** Windows Server CAL rights
 
-> [!question] Intune Plan 2, Remote Help and Advanced Endpoint Analytics were historically Intune Suite add-ons. Confirm current inclusion.
+- **Since July 2026:** Intune **Plan 2** (Tunnel for MAM, FOTA, specialty devices), **Remote Help** and **Advanced Analytics** are included ([[summary-m365-e3-feature-map#claim-004]]).
 
-Source: [[summary-m365-e3-feature-map]]
+
+
+Sources: [[summary-m365-e3-feature-map]], [[summary-intune-vs-manageengine]]

@@ -19,8 +19,9 @@ claims:
     updated: 2026-10-19
   - id: claim-002
     text: "Microsoft 365 E3 includes unlimited OneDrive/SharePoint file storage."
-    confidence: 0.3
+    confidence: 0.05
     status: disputed
+    resolution: "Refuted 2026-10-19. Jaspreet confirmed M365 E3 storage is 5 TB, not unlimited. The deck is out of date on this point. See [[summary-m365-e3-feature-map#claim-002]]."
     evidence:
       - source: raw/2026-10-19-elevate-security-for-copilot-o365-e1-plus.pptx
         kind: documentation
@@ -28,6 +29,9 @@ claims:
       - source: raw/2026-10-19-m365-e3-feature-mindmap.html
         kind: documentation
         excerpt: "OneDrive for Business (5 TB storage)"
+      - source: raw/2026-10-19-jaspreet-e3-storage-confirmation.md
+        kind: observation
+        excerpt: "E3 storage is not unlimited its 5 TB"
     captured: 2026-10-19
     updated: 2026-10-19
   - id: claim-003
@@ -68,9 +72,47 @@ OneDrive, Exchange, SharePoint, Viva Connections, Viva Engage, Viva Insights, De
 - Teams is a separate purchase for net-new customers; some Viva and Power Platform features depend on it.
 - Storage per the slide: 1 TB OneDrive and 50 GB mailbox for E1 and E1 Plus; "Unlimited" and 100 GB for M365 E3.
 
-> [!warning] Slide 7 says M365 E3 file storage is **"Unlimited"**. The E3 mind map says **OneDrive 5 TB** ([[summary-m365-e3-feature-map]]). Treat 5 TB as current and the deck as possibly out of date, and verify before quoting.
+> [!warning] **Resolved:** slide 7's "Unlimited" for M365 E3 storage is **out of date**. Jaspreet confirmed 5 TB on 2026-10-19, which matches the E3 mind map ([[summary-m365-e3-feature-map#claim-002]]). Never quote "Unlimited".
 
-> [!question] The tick marks in the slide 7 comparison table are images and could not be read. Only the text cells were captured.
+### Comparison table (slide 7, read from a rendered image)
+| Capability | O365 E1 | O365 E1 Plus | M365 E3 |
+|---|---|---|---|
+| Files and storage (OneDrive/SharePoint) | 1 TB | 1 TB | ~~Unlimited~~ **5 TB** (deck is out of date; see claim-002) |
+| Email (Exchange) | 50 GB | 50 GB | 100 GB |
+| Other cloud services (Planner, Forms, Stream, Whiteboard) | ● | ● | ● |
+| Office desktop apps (M365 Apps for enterprise) | – | – | ● |
+| Endpoint management (Intune P1) | Basic | ● | ● |
+| Office 365 DLP (Purview DLP for email and files) | – | ● | ● |
+| Identity, Conditional Access (Entra ID P1) | – | ● | ● |
+| Exchange Online Archiving | 50 GB | 50 GB | ● |
+| File classification, encryption (Purview P1) | – | – | ● |
+| Windows Enterprise management (Win E3) | – | – | ● |
+| Endpoint protection (MDE P1) | – | – | ● |
+
+The three E1 Plus differentiators over E1 are Intune P1, Office 365 DLP and Entra ID P1.
+
+## Staged Copilot rollout (slide 11 notes)
+- **Stage 1: web-grounded prompts.** Microsoft Copilot in Bing, Edge and Windows with [[enterprise-data-protection]].
+- **Stage 2: Microsoft 365 Graph-grounded prompts.** [[microsoft-365-copilot]] over the organization's data.
+- Build [[zero-trust]] protections while moving through the stages. The notes cite Microsoft Learn: *Apply Zero Trust principles to Microsoft Copilots* (learn.microsoft.com/security/zero-trust/copilots/apply-zero-trust-copilots-overview).
+
+## Identity detail (slides 13 and 21 notes)
+- **CAE triggers:** user termination, password change or reset, network location change, token revocation. Policy is enforced without waiting for the token to expire.
+- **Entra ID P1 in E1 Plus** defends against password spray, replay and phishing.
+- **Cloud App Discovery** works by uploading network-device logs and reporting against a catalogue of 400+ gen-AI apps with compliance information.
+- **Intune P1** covers Windows 11, macOS, iOS and Android.
+
+## Tier detail from the slide 21 speaker notes
+- **E1 Plus ("baseline"):** MFA, SSO, [[conditional-access]], Cloud App Discovery, Intune P1, Purview DLP for email and files.
+- **M365 E3 ("core"):** + manual sensitivity and retention labels, including on non-Office files such as PDFs; discover gen-AI apps and alert on or block them on Windows 11 via [[microsoft-defender-for-endpoint]] P1; MDE P1 antimalware.
+- **M365 E5 ("best-in-class"):** + Entra ID Protection risk signals in Conditional Access; automatic sensitivity and retention labels; risk-adaptive controls, communication compliance and premium investigation; Defender for Cloud Apps to block or sanction 400+ AI apps; Defender XDR across endpoints, identity, cloud apps, email and files. See [[microsoft-365-e5]].
+
+## Discovery questions (speaker notes)
+- **AI (slide 5):** What is your AI strategy for productivity? Have you identified the key roles to enable Copilot first, and how will you empower everyone else?
+- **Security (slide 10):** What is your data protection strategy? Are your files in the cloud, on-premises or hybrid? Do you have a Zero Trust strategy, and how is it managed?
+- **IT (slide 19):** How are endpoints managed today, and how is a new hire set up, remote or on-site? How many productivity and security vendors do you run, and have you considered consolidating?
+
+> [!warning] **Out of date (slide 9 notes):** "Customers licensed for Microsoft 365 E3, E5 … are eligible for Copilot at no additional cost during preview." This refers to the old preview of the free Copilot chat. Do not quote it.
 
 ## Control matrix highlights (slide 25)
 | Capability | O365 E1 Plus | M365 E3 | M365 E5 |
@@ -93,5 +135,7 @@ OneDrive, Exchange, SharePoint, Viva Connections, Viva Engage, Viva Insights, De
 - 79% / 60% / 59%: AI is imperative / no plan / can't quantify gains (2024 Work Trend Index)
 - 65% of organizations use AI; 58% lack visibility into unsanctioned gen-AI use; 80% cite data leakage as a concern (Worklab; Microsoft Security whitepaper)
 - 87% use flexible work options (McKinsey, 2022); 86% say outdated PCs raise vulnerability (Hypothesis Group, 2021)
+
+*Re-read on 2026-10-19: full speaker notes, nested shapes and a rendered slide 7. The first pass had truncated the notes and missed the image-based ticks.*
 
 Related: [[moc-copilot-security-readiness]] · [[moc-microsoft-365-licensing]]

@@ -25,4 +25,6 @@ status: active
 | Threat investigation | Real-time detections; real-time reports |
 | Policy and admin | Preset security policies (Standard / Strict); policy tuning; Configuration Analyzer; Tenant Allow/Block List |
 
+> [!note] **Licensing:** Plan 1 is included in O365 E3 and M365 E3 since 1 July 2026 ([[summary-m365-e3-feature-map#claim-005]]).
+
 Entity: [[microsoft-defender-for-office-365]] · Concept: [[email-and-collaboration-protection-layers]] · MOC: [[moc-microsoft-365-licensing]]

@@ -4,7 +4,7 @@ type: concept
 created: 2026-10-19
 updated: 2026-10-19
 tags: [identity, security, zero-trust]
-sources: ["[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]"]
+sources: ["[[summary-intune-vs-manageengine]]", "[[summary-elevate-security-for-copilot-e1-plus-deck]]", "[[summary-m365-e3-feature-map]]"]
 status: draft
 ---
 
@@ -19,4 +19,6 @@ status: draft
 
 **Underpins:** [[zero-trust]] and control 1 of [[copilot-security-readiness]]. Also available in [[office-365-e1-plus]].
 
-Sources: [[summary-m365-e3-feature-map]], [[summary-elevate-security-for-copilot-e1-plus-deck]]
+**Device grants:** "Require device to be marked as compliant" reads state written by Intune or an onboarded compliance partner ([[device-compliance-signal-flow]]). "Require app protection policy" covers unenrolled BYOD ([[mdm-vs-mam]]). IP and named locations are Entra ID P1-only location signals, not trust signals ([[summary-intune-vs-manageengine]]).
+
+Sources: [[summary-m365-e3-feature-map]], [[summary-elevate-security-for-copilot-e1-plus-deck]], [[summary-intune-vs-manageengine]]
