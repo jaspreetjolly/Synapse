@@ -121,9 +121,19 @@ function createMarkdownRenderer(resolveLink) {
 }
 
 const allFiles = await walk(root);
-const sourceFiles = allFiles.filter((file) => !generatedSiteFiles.has(toPosix(path.relative(root, file))));
+// Generated site files (index.html, note.html, graph-data.json, .nojekyll) at the repo root are build output, never notes or assets.
+const sourceFiles = allFiles.filter((file) => {
+  const rel = toPosix(path.relative(root, file));
+  return !(generatedSiteFiles.has(rel.toLowerCase()) || (!rel.includes("/") && generatedSiteFiles.has(path.basename(rel).toLowerCase())));
+});
 const markdownFiles = sourceFiles.filter((file) => markdownExtensions.has(path.extname(file).toLowerCase()));
-const assetFiles = sourceFiles.filter((file) => assetExtensions.has(path.extname(file).toLowerCase()));
+// Assets only count inside vault folders (e.g. raw/), never at the repo root.
+const assetFiles = sourceFiles.filter((file) => {
+  const rel = toPosix(path.relative(root, file));
+  if (!assetExtensions.has(path.extname(file).toLowerCase()) || !rel.includes("/")) return false;
+  // A stray copy of the site shell (index.html / note.html) in any folder other than raw/ is not a vault asset.
+  return rel.startsWith("raw/") || !generatedSiteFiles.has(path.basename(rel).toLowerCase());
+});
 
 const notes = [];
 const idByBasename = new Map();
@@ -138,7 +148,7 @@ for (const file of markdownFiles) {
   const type = parsed.data.type || (relPath.startsWith("raw/") ? "raw" : relPath.startsWith("_meta/") ? "meta" : "note");
   const tags = [
     ...asArray(parsed.data.tags).map(cleanTag),
-    ...Array.from(parsed.content.matchAll(/(^|\s)#([a-zA-Z0-9][\w/-]*)/g)).map((match) => cleanTag(match[2]))
+    ...Array.from(parsed.content.replace(/```[\s\S]*?```|~~~[\s\S]*?~~~|`[^`\n]*`/g, " ").matchAll(/(^|\s)#([a-zA-Z0-9][\w/-]*)/g)).map((match) => cleanTag(match[2]))
   ].filter(Boolean);
 
   const note = {
@@ -156,12 +166,40 @@ for (const file of markdownFiles) {
   idByBasename.set(normalizeId(path.basename(relPath, path.extname(relPath))), id);
 }
 
+// Register assets (raw/*.html, *.pptx, ...) so [[raw/file.html]] links resolve to the asset node instead of a placeholder.
+const assetIdByPath = new Map();
+const assetIdByBasename = new Map();
+const assetPathById = new Map();
+for (const asset of assetFiles) {
+  const relPath = toPosix(path.relative(root, asset));
+  const assetId = `asset:${normalizeId(relPath)}`;
+  assetIdByPath.set(normalizeId(relPath), assetId);
+  assetIdByBasename.set(normalizeId(path.basename(relPath)), assetId);
+  assetPathById.set(assetId, relPath);
+}
+
 function resolveWikilink(value) {
   const [targetPart] = value.split("|");
   const target = targetPart.split("#")[0].trim();
   if (!target) return null;
   const normalized = normalizeId(target);
-  return idByPath.get(normalized) || idByBasename.get(normalized) || null;
+  return idByPath.get(normalized) || idByBasename.get(normalized)
+    || assetIdByPath.get(normalized) || assetIdByBasename.get(normalized) || null;
+}
+
+// Code spans and fenced blocks hold examples (e.g. `[[page-a]]`), not real links or tags.
+const codePattern = /```[\s\S]*?```|~~~[\s\S]*?~~~|`[^`\n]*`/g;
+function stripCode(text) {
+  return text.replace(codePattern, " ");
+}
+function replaceOutsideCode(text, pattern, replacer) {
+  let result = "";
+  let last = 0;
+  for (const match of text.matchAll(codePattern)) {
+    result += text.slice(last, match.index).replace(pattern, replacer) + match[0];
+    last = match.index + match[0].length;
+  }
+  return result + text.slice(last).replace(pattern, replacer);
 }
 
 function resolveMarkdownLink(href) {
@@ -185,7 +223,7 @@ for (const note of notes) {
     tags: note.tags
   });
 
-  for (const match of note.rawContent.matchAll(wikilinkPattern)) {
+  for (const match of stripCode(note.rawContent).matchAll(wikilinkPattern)) {
     const targetId = resolveWikilink(match[1]);
     const label = match[1].split("|").pop().trim();
     if (targetId) {
@@ -207,21 +245,6 @@ for (const note of notes) {
     }
   }
 
-  for (const tag of note.tags) {
-    const tagId = `tag:${tag}`;
-    if (!nodesById.has(tagId)) {
-      nodesById.set(tagId, {
-        id: tagId,
-        label: `#${tag}`,
-        path: "",
-        type: "tag",
-        group: "tag",
-        kind: "tag",
-        tags: []
-      });
-    }
-    links.push({ source: note.id, target: tagId, type: "tag" });
-  }
 }
 
 for (const asset of assetFiles) {
@@ -241,11 +264,12 @@ for (const asset of assetFiles) {
 const renderer = createMarkdownRenderer(resolveMarkdownLink);
 const pageById = {};
 for (const note of notes) {
-  const linkedContent = note.rawContent.replace(wikilinkPattern, (_, linkText) => {
+  const linkedContent = replaceOutsideCode(note.rawContent, wikilinkPattern, (_, linkText) => {
     const [targetPart, aliasPart] = linkText.split("|");
     const label = aliasPart || targetPart;
     const targetId = resolveWikilink(targetPart);
     if (!targetId) return escapeHtml(label);
+    if (targetId.startsWith("asset:")) return `<code title="${escapeHtml(assetPathById.get(targetId) || "")}">${escapeHtml(label)}</code>`;
     return `[${label}](#note/${targetId})`;
   });
   pageById[note.id] = {
@@ -517,7 +541,7 @@ function renderHtml(data) {
         <button id="reset">Reset graph</button>
       </div>
       <svg id="graph" aria-label="Synapse graph"></svg>
-      <div class="hint">Click a graph node to open the rendered Markdown note in a separate tab/window. Drag to pan, scroll to zoom.</div>
+      <div class="hint">Click a note to open rendered Markdown, or a source file to open the original. Drag to pan, scroll to zoom.</div>
       <div id="tooltip" class="tooltip"></div>
     </main>
   </div>
@@ -576,6 +600,12 @@ function renderHtml(data) {
       highlightNote(id);
       const url = new URL("note.html", location.href);
       url.hash = "note/" + id;
+      window.open(url.href, "_blank", "noopener");
+    }
+
+    function openAsset(path) {
+      if (!path) return;
+      const url = new URL(path.split("/").map(encodeURIComponent).join("/"), location.href);
       window.open(url.href, "_blank", "noopener");
     }
 
@@ -642,6 +672,7 @@ function renderHtml(data) {
     nodeGroup
       .on("click", (event, d) => {
         if (graph.pages[d.id]) openNote(d.id);
+        else if (d.kind === "asset") openAsset(d.path);
       })
       .on("mouseenter", (event, d) => {
         tooltip.style.opacity = 1;

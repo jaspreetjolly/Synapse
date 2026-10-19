@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T09:15:46.322Z",
+  "generatedAt": "2026-10-19T09:42:58.099Z",
   "counts": {
     "notes": 61,
-    "nodes": 117,
-    "links": 851
+    "nodes": 66,
+    "links": 661
   },
   "nodes": [
     {
@@ -20,33 +20,6 @@
       ]
     },
     {
-      "id": "tag:identity",
-      "label": "#identity",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:security",
-      "label": "#security",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:zero-trust",
-      "label": "#zero-trust",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/concepts/copilot-security-readiness",
       "label": "Copilot security readiness",
       "path": "10-Notes/concepts/copilot-security-readiness.md",
@@ -59,24 +32,6 @@
         "zero-trust",
         "licensing"
       ]
-    },
-    {
-      "id": "tag:copilot",
-      "label": "#copilot",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:licensing",
-      "label": "#licensing",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/concepts/device-compliance-signal-flow",
@@ -92,15 +47,6 @@
       ]
     },
     {
-      "id": "tag:intune",
-      "label": "#intune",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/concepts/email-and-collaboration-protection-layers",
       "label": "Email and collaboration protection layers",
       "path": "10-Notes/concepts/email-and-collaboration-protection-layers.md",
@@ -111,15 +57,6 @@
         "security",
         "email-security"
       ]
-    },
-    {
-      "id": "tag:email-security",
-      "label": "#email-security",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/concepts/enterprise-data-protection",
@@ -135,15 +72,6 @@
       ]
     },
     {
-      "id": "tag:privacy",
-      "label": "#privacy",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/concepts/m365-licensing-stack",
       "label": "Microsoft 365 licensing stack",
       "path": "10-Notes/concepts/m365-licensing-stack.md",
@@ -156,15 +84,6 @@
       ]
     },
     {
-      "id": "tag:modern-work",
-      "label": "#modern-work",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/concepts/mdm-vs-mam",
       "label": "MDM vs MAM",
       "path": "10-Notes/concepts/mdm-vs-mam.md",
@@ -175,15 +94,6 @@
         "endpoint",
         "security"
       ]
-    },
-    {
-      "id": "tag:endpoint",
-      "label": "#endpoint",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/concepts/passwordless-authentication",
@@ -212,24 +122,6 @@
       ]
     },
     {
-      "id": "tag:windows",
-      "label": "#windows",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:updates",
-      "label": "#updates",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/concepts/windows-virtualization-rights",
       "label": "Windows Enterprise virtualization rights",
       "path": "10-Notes/concepts/windows-virtualization-rights.md",
@@ -241,15 +133,6 @@
         "licensing",
         "vdi"
       ]
-    },
-    {
-      "id": "tag:vdi",
-      "label": "#vdi",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/concepts/zero-trust",
@@ -276,33 +159,6 @@
         "hardware",
         "ai"
       ]
-    },
-    {
-      "id": "tag:product",
-      "label": "#product",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:hardware",
-      "label": "#hardware",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:ai",
-      "label": "#ai",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/entities/ems-e3",
@@ -344,24 +200,6 @@
       ]
     },
     {
-      "id": "tag:vendor",
-      "label": "#vendor",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:competitor",
-      "label": "#competitor",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/entities/microsoft-365-copilot",
       "label": "Microsoft 365 Copilot",
       "path": "10-Notes/entities/microsoft-365-copilot.md",
@@ -400,15 +238,6 @@
         "security",
         "compliance"
       ]
-    },
-    {
-      "id": "tag:compliance",
-      "label": "#compliance",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/entities/microsoft-defender-for-endpoint",
@@ -462,15 +291,6 @@
         "licensing",
         "add-on"
       ]
-    },
-    {
-      "id": "tag:add-on",
-      "label": "#add-on",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "10-notes/entities/microsoft-intune",
@@ -539,15 +359,6 @@
       ]
     },
     {
-      "id": "tag:cloud-service",
-      "label": "#cloud-service",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "10-notes/entities/windows-11-enterprise",
       "label": "Windows 11 Enterprise",
       "path": "10-Notes/entities/windows-11-enterprise.md",
@@ -588,15 +399,6 @@
       ]
     },
     {
-      "id": "tag:passwordless",
-      "label": "#passwordless",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
       "label": "Summary — Elevate security for Copilot with Office 365 E1 Plus (deck)",
       "path": "40-Resources/summary-elevate-security-for-copilot-e1-plus-deck.md",
@@ -634,15 +436,6 @@
       ]
     },
     {
-      "id": "tag:competitive",
-      "label": "#competitive",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "40-resources/summary-m365-e3-feature-map",
       "label": "Summary — Microsoft 365 E3 feature map",
       "path": "40-Resources/summary-m365-e3-feature-map.md",
@@ -654,15 +447,6 @@
         "modern-work",
         "security"
       ]
-    },
-    {
-      "id": "placeholder:raw-2026-10-19-m365-e3-feature-mindmap-html",
-      "label": "raw/2026-10-19-m365-e3-feature-mindmap.html",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
     },
     {
       "id": "40-resources/summary-mdo-plan1-feature-map",
@@ -678,15 +462,6 @@
       ]
     },
     {
-      "id": "placeholder:raw-2026-10-19-mdo-plan1-feature-mindmap-html",
-      "label": "raw/2026-10-19-mdo-plan1-feature-mindmap.html",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
       "id": "40-resources/summary-o365-e1-plus-feature-map",
       "label": "Summary — Office 365 E1 Plus feature map",
       "path": "40-Resources/summary-o365-e1-plus-feature-map.md",
@@ -700,15 +475,6 @@
       ]
     },
     {
-      "id": "placeholder:raw-2026-10-19-o365-e1-plus-feature-mindmap-html",
-      "label": "raw/2026-10-19-o365-e1-plus-feature-mindmap.html",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
       "id": "40-resources/summary-passwordless-journey-2022",
       "label": "Summary — Passwordless journey session (Sept 2022)",
       "path": "40-Resources/summary-passwordless-journey-2022.md",
@@ -720,15 +486,6 @@
         "passwordless",
         "partner"
       ]
-    },
-    {
-      "id": "tag:partner",
-      "label": "#partner",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "40-resources/summary-secure-wfh-government-m365-e3",
@@ -745,33 +502,6 @@
       ]
     },
     {
-      "id": "tag:m365-e3",
-      "label": "#m365-e3",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:government",
-      "label": "#government",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:customer-briefing",
-      "label": "#customer-briefing",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "40-resources/summary-windows-11-enterprise-feature-map",
       "label": "Summary — Windows 11 Enterprise feature map",
       "path": "40-Resources/summary-windows-11-enterprise-feature-map.md",
@@ -783,15 +513,6 @@
         "endpoint",
         "security"
       ]
-    },
-    {
-      "id": "placeholder:raw-2026-10-19-windows-11-enterprise-feature-mindmap-html",
-      "label": "raw/2026-10-19-windows-11-enterprise-feature-mindmap.html",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
     },
     {
       "id": "40-resources/summary-windows-11-enterprise-l100-deck",
@@ -835,15 +556,6 @@
       ]
     },
     {
-      "id": "tag:sales-enablement",
-      "label": "#sales-enablement",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "40-resources/summary-windows-enterprise-value-prop-intune",
       "label": "Summary — Windows Enterprise value prop: Intune standpoint",
       "path": "40-Resources/summary-windows-enterprise-value-prop-intune.md",
@@ -869,69 +581,6 @@
       ]
     },
     {
-      "id": "placeholder:raw-2026-10-18-source-slug",
-      "label": "raw/2026-10-18-source-slug",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:page-claim-001",
-      "label": "page#claim-001",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:links",
-      "label": "links",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:page-a",
-      "label": "page-a",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:page-b",
-      "label": "page-b",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "tag:meta",
-      "label": "#meta",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:schema",
-      "label": "#schema",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "index",
       "label": "Index",
       "path": "index.md",
@@ -942,24 +591,6 @@
         "meta",
         "index"
       ]
-    },
-    {
-      "id": "placeholder:link",
-      "label": "link",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "tag:index",
-      "label": "#index",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "log",
@@ -974,15 +605,6 @@
       ]
     },
     {
-      "id": "tag:log",
-      "label": "#log",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
       "id": "raw/2026-10-19-elevate-security-for-copilot-o365-e1-plusref",
       "label": "Reference — Elevate security for Copilot with Office 365 E1 Plus (deck)",
       "path": "raw/2026-10-19-elevate-security-for-copilot-o365-e1-plus.ref.md",
@@ -993,24 +615,6 @@
         "raw",
         "reference"
       ]
-    },
-    {
-      "id": "tag:raw",
-      "label": "#raw",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
-    },
-    {
-      "id": "tag:reference",
-      "label": "#reference",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "raw/2026-10-19-intune-advanced-capabilities-e3-e5ref",
@@ -1037,15 +641,6 @@
         "observation",
         "licensing"
       ]
-    },
-    {
-      "id": "tag:observation",
-      "label": "#observation",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "raw/2026-10-19-jaspreet-rulings-licensing",
@@ -1135,51 +730,6 @@
       ]
     },
     {
-      "id": "placeholder:summary-azure-openai-overview",
-      "label": "summary-azure-openai-overview",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:wiki-links",
-      "label": "wiki-links",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:azure-openai",
-      "label": "azure-openai",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:aoai",
-      "label": "AOAI",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
-      "id": "placeholder:second-brain-layers",
-      "label": "second-brain#Layers",
-      "path": "",
-      "type": "placeholder",
-      "group": "placeholder",
-      "kind": "placeholder",
-      "tags": []
-    },
-    {
       "id": "_meta/mocs/home",
       "label": "Home",
       "path": "_meta/MOCs/home.md",
@@ -1190,15 +740,6 @@
         "meta",
         "moc"
       ]
-    },
-    {
-      "id": "tag:moc",
-      "label": "#moc",
-      "path": "",
-      "type": "tag",
-      "group": "tag",
-      "kind": "tag",
-      "tags": []
     },
     {
       "id": "_meta/mocs/moc-copilot-security-readiness",
@@ -1369,21 +910,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/conditional-access",
-      "target": "tag:identity",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/conditional-access",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/conditional-access",
-      "target": "tag:zero-trust",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/concepts/copilot-security-readiness",
       "target": "10-notes/entities/microsoft-365-copilot",
       "type": "wikilink"
@@ -1459,26 +985,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/copilot-security-readiness",
-      "target": "tag:copilot",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/copilot-security-readiness",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/copilot-security-readiness",
-      "target": "tag:zero-trust",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/copilot-security-readiness",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/concepts/device-compliance-signal-flow",
       "target": "10-notes/entities/microsoft-intune",
       "type": "wikilink"
@@ -1512,21 +1018,6 @@
       "source": "10-notes/concepts/device-compliance-signal-flow",
       "target": "40-resources/summary-intune-vs-manageengine",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/concepts/device-compliance-signal-flow",
-      "target": "tag:intune",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/device-compliance-signal-flow",
-      "target": "tag:identity",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/device-compliance-signal-flow",
-      "target": "tag:zero-trust",
-      "type": "tag"
     },
     {
       "source": "10-notes/concepts/email-and-collaboration-protection-layers",
@@ -1564,16 +1055,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/email-and-collaboration-protection-layers",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/email-and-collaboration-protection-layers",
-      "target": "tag:email-security",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/concepts/enterprise-data-protection",
       "target": "40-resources/summary-windows-11-enterprise-l100-deck",
       "type": "wikilink"
@@ -1607,21 +1088,6 @@
       "source": "10-notes/concepts/enterprise-data-protection",
       "target": "40-resources/summary-windows-11-enterprise-l100-deck",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/concepts/enterprise-data-protection",
-      "target": "tag:copilot",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/enterprise-data-protection",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/enterprise-data-protection",
-      "target": "tag:privacy",
-      "type": "tag"
     },
     {
       "source": "10-notes/concepts/m365-licensing-stack",
@@ -1679,16 +1145,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/m365-licensing-stack",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/m365-licensing-stack",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/concepts/mdm-vs-mam",
       "target": "40-resources/summary-intune-vs-manageengine",
       "type": "wikilink"
@@ -1717,16 +1173,6 @@
       "source": "10-notes/concepts/mdm-vs-mam",
       "target": "40-resources/summary-intune-vs-manageengine",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/concepts/mdm-vs-mam",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/mdm-vs-mam",
-      "target": "tag:security",
-      "type": "tag"
     },
     {
       "source": "10-notes/concepts/passwordless-authentication",
@@ -1759,21 +1205,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/passwordless-authentication",
-      "target": "tag:identity",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/passwordless-authentication",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/passwordless-authentication",
-      "target": "tag:zero-trust",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/concepts/windows-enterprise-servicing",
       "target": "10-notes/entities/windows-autopatch",
       "type": "wikilink"
@@ -1794,21 +1225,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/windows-enterprise-servicing",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/windows-enterprise-servicing",
-      "target": "tag:updates",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/windows-enterprise-servicing",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/concepts/windows-virtualization-rights",
       "target": "10-notes/entities/windows-11-enterprise",
       "type": "wikilink"
@@ -1822,21 +1238,6 @@
       "source": "10-notes/concepts/windows-virtualization-rights",
       "target": "40-resources/summary-windows-enterprise-e3-sellers-training-2023",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/concepts/windows-virtualization-rights",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/windows-virtualization-rights",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/windows-virtualization-rights",
-      "target": "tag:vdi",
-      "type": "tag"
     },
     {
       "source": "10-notes/concepts/zero-trust",
@@ -1909,16 +1310,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/concepts/zero-trust",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/concepts/zero-trust",
-      "target": "tag:zero-trust",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/copilot-plus-pc",
       "target": "10-notes/entities/windows-11-enterprise",
       "type": "wikilink"
@@ -1927,26 +1318,6 @@
       "source": "10-notes/entities/copilot-plus-pc",
       "target": "40-resources/summary-windows-11-enterprise-l100-deck",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/copilot-plus-pc",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/copilot-plus-pc",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/copilot-plus-pc",
-      "target": "tag:hardware",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/copilot-plus-pc",
-      "target": "tag:ai",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/ems-e3",
@@ -1977,21 +1348,6 @@
       "source": "10-notes/entities/ems-e3",
       "target": "40-resources/summary-intune-vs-manageengine",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/ems-e3",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/ems-e3",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/ems-e3",
-      "target": "tag:security",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/exchange-online-protection",
@@ -2029,21 +1385,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/exchange-online-protection",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/exchange-online-protection",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/exchange-online-protection",
-      "target": "tag:email-security",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/manageengine",
       "target": "10-notes/entities/microsoft-intune",
       "type": "wikilink"
@@ -2062,21 +1403,6 @@
       "source": "10-notes/entities/manageengine",
       "target": "40-resources/summary-intune-vs-manageengine",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/manageengine",
-      "target": "tag:vendor",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/manageengine",
-      "target": "tag:competitor",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/manageengine",
-      "target": "tag:endpoint",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/microsoft-365-copilot",
@@ -2112,21 +1438,6 @@
       "source": "10-notes/entities/microsoft-365-copilot",
       "target": "_meta/mocs/moc-copilot-security-readiness",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-copilot",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-copilot",
-      "target": "tag:copilot",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-copilot",
-      "target": "tag:ai",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/microsoft-365-e3",
@@ -2209,21 +1520,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/microsoft-365-e3",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-e3",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-e3",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/microsoft-365-e5",
       "target": "10-notes/concepts/copilot-security-readiness",
       "type": "wikilink"
@@ -2274,26 +1570,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/microsoft-365-e5",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-e5",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-e5",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-365-e5",
-      "target": "tag:compliance",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/microsoft-defender-for-endpoint",
       "target": "10-notes/entities/microsoft-365-e3",
       "type": "wikilink"
@@ -2329,21 +1605,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/microsoft-defender-for-endpoint",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-defender-for-endpoint",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-defender-for-endpoint",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/microsoft-defender-for-office-365",
       "target": "10-notes/entities/office-365-e3",
       "type": "wikilink"
@@ -2367,21 +1628,6 @@
       "source": "10-notes/entities/microsoft-defender-for-office-365",
       "target": "raw/2026-10-19-ms-learn-mdo-service-descriptionref",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/microsoft-defender-for-office-365",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-defender-for-office-365",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-defender-for-office-365",
-      "target": "tag:email-security",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/microsoft-entra-id",
@@ -2454,21 +1700,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/microsoft-entra-id",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-entra-id",
-      "target": "tag:identity",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-entra-id",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/microsoft-intune-suite",
       "target": "raw/2026-10-19-intune-advanced-capabilities-e3-e5ref",
       "type": "wikilink"
@@ -2492,26 +1723,6 @@
       "source": "10-notes/entities/microsoft-intune-suite",
       "target": "10-notes/entities/microsoft-365-e5",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/microsoft-intune-suite",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-intune-suite",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-intune-suite",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-intune-suite",
-      "target": "tag:add-on",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/microsoft-intune",
@@ -2589,21 +1800,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/microsoft-intune",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-intune",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-intune",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/microsoft-purview",
       "target": "10-notes/entities/office-365-e1-plus",
       "type": "wikilink"
@@ -2627,21 +1823,6 @@
       "source": "10-notes/entities/microsoft-purview",
       "target": "40-resources/summary-m365-e3-feature-map",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/microsoft-purview",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-purview",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/microsoft-purview",
-      "target": "tag:compliance",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/office-365-e1-plus",
@@ -2694,26 +1875,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/office-365-e1-plus",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/office-365-e1-plus",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/office-365-e1-plus",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/office-365-e1-plus",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/office-365-e3",
       "target": "10-notes/entities/microsoft-365-e3",
       "type": "wikilink"
@@ -2749,21 +1910,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/office-365-e3",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/office-365-e3",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/office-365-e3",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/universal-print",
       "target": "10-notes/entities/windows-11-enterprise",
       "type": "wikilink"
@@ -2782,21 +1928,6 @@
       "source": "10-notes/entities/universal-print",
       "target": "40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/universal-print",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/universal-print",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/universal-print",
-      "target": "tag:cloud-service",
-      "type": "tag"
     },
     {
       "source": "10-notes/entities/windows-11-enterprise",
@@ -2884,26 +2015,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/windows-11-enterprise",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-11-enterprise",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-11-enterprise",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-11-enterprise",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/windows-autopatch",
       "target": "10-notes/entities/windows-11-enterprise",
       "type": "wikilink"
@@ -2959,16 +2070,6 @@
       "type": "wikilink"
     },
     {
-      "source": "10-notes/entities/windows-autopatch",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-autopatch",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
       "source": "10-notes/entities/windows-hello-for-business",
       "target": "10-notes/concepts/passwordless-authentication",
       "type": "wikilink"
@@ -2997,26 +2098,6 @@
       "source": "10-notes/entities/windows-hello-for-business",
       "target": "40-resources/summary-passwordless-journey-2022",
       "type": "wikilink"
-    },
-    {
-      "source": "10-notes/entities/windows-hello-for-business",
-      "target": "tag:product",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-hello-for-business",
-      "target": "tag:identity",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-hello-for-business",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "10-notes/entities/windows-hello-for-business",
-      "target": "tag:passwordless",
-      "type": "tag"
     },
     {
       "source": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
@@ -3129,26 +2210,6 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
-      "target": "tag:copilot",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
-      "target": "tag:zero-trust",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-intune-vs-manageengine",
       "target": "raw/2026-10-19-windows-11-enterprise-folderref",
       "type": "wikilink"
@@ -3204,29 +2265,9 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-intune-vs-manageengine",
-      "target": "tag:intune",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-intune-vs-manageengine",
-      "target": "tag:competitive",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-intune-vs-manageengine",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-intune-vs-manageengine",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-m365-e3-feature-map",
-      "target": "placeholder:raw-2026-10-19-m365-e3-feature-mindmap-html",
-      "type": "missing"
+      "target": "asset:raw/2026-10-19-m365-e3-feature-mindmaphtml",
+      "type": "wikilink"
     },
     {
       "source": "40-resources/summary-m365-e3-feature-map",
@@ -3334,24 +2375,9 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-m365-e3-feature-map",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-m365-e3-feature-map",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-m365-e3-feature-map",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-mdo-plan1-feature-map",
-      "target": "placeholder:raw-2026-10-19-mdo-plan1-feature-mindmap-html",
-      "type": "missing"
+      "target": "asset:raw/2026-10-19-mdo-plan1-feature-mindmaphtml",
+      "type": "wikilink"
     },
     {
       "source": "40-resources/summary-mdo-plan1-feature-map",
@@ -3379,24 +2405,9 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-mdo-plan1-feature-map",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-mdo-plan1-feature-map",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-mdo-plan1-feature-map",
-      "target": "tag:email-security",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-o365-e1-plus-feature-map",
-      "target": "placeholder:raw-2026-10-19-o365-e1-plus-feature-mindmap-html",
-      "type": "missing"
+      "target": "asset:raw/2026-10-19-o365-e1-plus-feature-mindmaphtml",
+      "type": "wikilink"
     },
     {
       "source": "40-resources/summary-o365-e1-plus-feature-map",
@@ -3449,21 +2460,6 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-o365-e1-plus-feature-map",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-o365-e1-plus-feature-map",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-o365-e1-plus-feature-map",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-passwordless-journey-2022",
       "target": "raw/2026-10-19-windows-11-enterprise-folderref",
       "type": "wikilink"
@@ -3477,21 +2473,6 @@
       "source": "40-resources/summary-passwordless-journey-2022",
       "target": "10-notes/concepts/passwordless-authentication",
       "type": "wikilink"
-    },
-    {
-      "source": "40-resources/summary-passwordless-journey-2022",
-      "target": "tag:identity",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-passwordless-journey-2022",
-      "target": "tag:passwordless",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-passwordless-journey-2022",
-      "target": "tag:partner",
-      "type": "tag"
     },
     {
       "source": "40-resources/summary-secure-wfh-government-m365-e3",
@@ -3544,29 +2525,9 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-secure-wfh-government-m365-e3",
-      "target": "tag:m365-e3",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-secure-wfh-government-m365-e3",
-      "target": "tag:government",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-secure-wfh-government-m365-e3",
-      "target": "tag:zero-trust",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-secure-wfh-government-m365-e3",
-      "target": "tag:customer-briefing",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-windows-11-enterprise-feature-map",
-      "target": "placeholder:raw-2026-10-19-windows-11-enterprise-feature-mindmap-html",
-      "type": "missing"
+      "target": "asset:raw/2026-10-19-windows-11-enterprise-feature-mindmaphtml",
+      "type": "wikilink"
     },
     {
       "source": "40-resources/summary-windows-11-enterprise-feature-map",
@@ -3622,21 +2583,6 @@
       "source": "40-resources/summary-windows-11-enterprise-feature-map",
       "target": "_meta/mocs/moc-microsoft-365-licensing",
       "type": "wikilink"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-feature-map",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-feature-map",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-feature-map",
-      "target": "tag:security",
-      "type": "tag"
     },
     {
       "source": "40-resources/summary-windows-11-enterprise-l100-deck",
@@ -3704,26 +2650,6 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-windows-11-enterprise-l100-deck",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-l100-deck",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-l100-deck",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-l100-deck",
-      "target": "tag:copilot",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready",
       "target": "raw/2026-10-19-windows-11-enterprise-folderref",
       "type": "wikilink"
@@ -3759,26 +2685,6 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-windows-enterprise-e3-sellers-training-2023",
       "target": "raw/2026-10-19-windows-11-enterprise-folderref",
       "type": "wikilink"
@@ -3819,21 +2725,6 @@
       "type": "wikilink"
     },
     {
-      "source": "40-resources/summary-windows-enterprise-e3-sellers-training-2023",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-enterprise-e3-sellers-training-2023",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-enterprise-e3-sellers-training-2023",
-      "target": "tag:sales-enablement",
-      "type": "tag"
-    },
-    {
       "source": "40-resources/summary-windows-enterprise-value-prop-intune",
       "target": "raw/2026-10-19-windows-11-enterprise-folderref",
       "type": "wikilink"
@@ -3857,66 +2748,6 @@
       "source": "40-resources/summary-windows-enterprise-value-prop-intune",
       "target": "_meta/mocs/moc-windows-and-endpoint-management",
       "type": "wikilink"
-    },
-    {
-      "source": "40-resources/summary-windows-enterprise-value-prop-intune",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-enterprise-value-prop-intune",
-      "target": "tag:intune",
-      "type": "tag"
-    },
-    {
-      "source": "40-resources/summary-windows-enterprise-value-prop-intune",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "agents",
-      "target": "_meta/conventions",
-      "type": "wikilink"
-    },
-    {
-      "source": "agents",
-      "target": "placeholder:raw-2026-10-18-source-slug",
-      "type": "missing"
-    },
-    {
-      "source": "agents",
-      "target": "placeholder:page-claim-001",
-      "type": "missing"
-    },
-    {
-      "source": "agents",
-      "target": "placeholder:links",
-      "type": "missing"
-    },
-    {
-      "source": "agents",
-      "target": "placeholder:page-a",
-      "type": "missing"
-    },
-    {
-      "source": "agents",
-      "target": "placeholder:page-b",
-      "type": "missing"
-    },
-    {
-      "source": "agents",
-      "target": "tag:meta",
-      "type": "tag"
-    },
-    {
-      "source": "agents",
-      "target": "tag:schema",
-      "type": "tag"
-    },
-    {
-      "source": "index",
-      "target": "placeholder:link",
-      "type": "missing"
     },
     {
       "source": "index",
@@ -4147,16 +2978,6 @@
       "source": "index",
       "target": "_meta/mocs/moc-windows-and-endpoint-management",
       "type": "wikilink"
-    },
-    {
-      "source": "index",
-      "target": "tag:meta",
-      "type": "tag"
-    },
-    {
-      "source": "index",
-      "target": "tag:index",
-      "type": "tag"
     },
     {
       "source": "log",
@@ -4834,29 +3655,9 @@
       "type": "wikilink"
     },
     {
-      "source": "log",
-      "target": "tag:meta",
-      "type": "tag"
-    },
-    {
-      "source": "log",
-      "target": "tag:log",
-      "type": "tag"
-    },
-    {
       "source": "raw/2026-10-19-elevate-security-for-copilot-o365-e1-plusref",
       "target": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
       "type": "wikilink"
-    },
-    {
-      "source": "raw/2026-10-19-elevate-security-for-copilot-o365-e1-plusref",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-elevate-security-for-copilot-o365-e1-plusref",
-      "target": "tag:reference",
-      "type": "tag"
     },
     {
       "source": "raw/2026-10-19-intune-advanced-capabilities-e3-e5ref",
@@ -4874,69 +3675,14 @@
       "type": "wikilink"
     },
     {
-      "source": "raw/2026-10-19-intune-advanced-capabilities-e3-e5ref",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-intune-advanced-capabilities-e3-e5ref",
-      "target": "tag:reference",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-intune-advanced-capabilities-e3-e5ref",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
       "source": "raw/2026-10-19-jaspreet-e3-storage-confirmation",
       "target": "40-resources/summary-m365-e3-feature-map",
       "type": "wikilink"
     },
     {
-      "source": "raw/2026-10-19-jaspreet-e3-storage-confirmation",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-jaspreet-e3-storage-confirmation",
-      "target": "tag:observation",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-jaspreet-e3-storage-confirmation",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-jaspreet-rulings-licensing",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-jaspreet-rulings-licensing",
-      "target": "tag:observation",
-      "type": "tag"
-    },
-    {
       "source": "raw/2026-10-19-ms-learn-autopatch-prerequisitesref",
       "target": "10-notes/entities/windows-autopatch",
       "type": "wikilink"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-autopatch-prerequisitesref",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-autopatch-prerequisitesref",
-      "target": "tag:reference",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-autopatch-prerequisitesref",
-      "target": "tag:windows",
-      "type": "tag"
     },
     {
       "source": "raw/2026-10-19-ms-learn-mdo-service-descriptionref",
@@ -4949,26 +3695,6 @@
       "type": "wikilink"
     },
     {
-      "source": "raw/2026-10-19-ms-learn-mdo-service-descriptionref",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-mdo-service-descriptionref",
-      "target": "tag:reference",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-mdo-service-descriptionref",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-mdo-service-descriptionref",
-      "target": "tag:email-security",
-      "type": "tag"
-    },
-    {
       "source": "raw/2026-10-19-ms-learn-point-in-time-restoreref",
       "target": "10-notes/entities/windows-11-enterprise",
       "type": "wikilink"
@@ -4977,21 +3703,6 @@
       "source": "raw/2026-10-19-ms-learn-point-in-time-restoreref",
       "target": "40-resources/summary-secure-wfh-government-m365-e3",
       "type": "wikilink"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-point-in-time-restoreref",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-point-in-time-restoreref",
-      "target": "tag:reference",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-ms-learn-point-in-time-restoreref",
-      "target": "tag:windows",
-      "type": "tag"
     },
     {
       "source": "raw/2026-10-19-windows-11-enterprise-folderref",
@@ -5029,16 +3740,6 @@
       "type": "wikilink"
     },
     {
-      "source": "raw/2026-10-19-windows-11-enterprise-folderref",
-      "target": "tag:raw",
-      "type": "tag"
-    },
-    {
-      "source": "raw/2026-10-19-windows-11-enterprise-folderref",
-      "target": "tag:reference",
-      "type": "tag"
-    },
-    {
       "source": "readme",
       "target": "_meta/mocs/home",
       "type": "wikilink"
@@ -5062,46 +3763,6 @@
       "source": "readme",
       "target": "log",
       "type": "wikilink"
-    },
-    {
-      "source": "readme",
-      "target": "tag:meta",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "placeholder:summary-azure-openai-overview",
-      "type": "missing"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "placeholder:wiki-links",
-      "type": "missing"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "placeholder:azure-openai",
-      "type": "missing"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "placeholder:aoai",
-      "type": "missing"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "placeholder:second-brain-layers",
-      "type": "missing"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "tag:meta",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/conventions",
-      "target": "tag:schema",
-      "type": "tag"
     },
     {
       "source": "_meta/mocs/home",
@@ -5137,16 +3798,6 @@
       "source": "_meta/mocs/home",
       "target": "_meta/mocs/moc-windows-and-endpoint-management",
       "type": "wikilink"
-    },
-    {
-      "source": "_meta/mocs/home",
-      "target": "tag:meta",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/home",
-      "target": "tag:moc",
-      "type": "tag"
     },
     {
       "source": "_meta/mocs/moc-copilot-security-readiness",
@@ -5237,26 +3888,6 @@
       "source": "_meta/mocs/moc-copilot-security-readiness",
       "target": "40-resources/summary-elevate-security-for-copilot-e1-plus-deck",
       "type": "wikilink"
-    },
-    {
-      "source": "_meta/mocs/moc-copilot-security-readiness",
-      "target": "tag:moc",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-copilot-security-readiness",
-      "target": "tag:copilot",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-copilot-security-readiness",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-copilot-security-readiness",
-      "target": "tag:zero-trust",
-      "type": "tag"
     },
     {
       "source": "_meta/mocs/moc-microsoft-365-licensing",
@@ -5399,26 +4030,6 @@
       "type": "wikilink"
     },
     {
-      "source": "_meta/mocs/moc-microsoft-365-licensing",
-      "target": "tag:moc",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-microsoft-365-licensing",
-      "target": "tag:licensing",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-microsoft-365-licensing",
-      "target": "tag:modern-work",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-microsoft-365-licensing",
-      "target": "tag:security",
-      "type": "tag"
-    },
-    {
       "source": "_meta/mocs/moc-windows-and-endpoint-management",
       "target": "10-notes/entities/windows-11-enterprise",
       "type": "wikilink"
@@ -5532,26 +4143,6 @@
       "source": "_meta/mocs/moc-windows-and-endpoint-management",
       "target": "40-resources/summary-passwordless-journey-2022",
       "type": "wikilink"
-    },
-    {
-      "source": "_meta/mocs/moc-windows-and-endpoint-management",
-      "target": "tag:moc",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-windows-and-endpoint-management",
-      "target": "tag:windows",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-windows-and-endpoint-management",
-      "target": "tag:endpoint",
-      "type": "tag"
-    },
-    {
-      "source": "_meta/mocs/moc-windows-and-endpoint-management",
-      "target": "tag:intune",
-      "type": "tag"
     }
   ],
   "pages": {
@@ -5953,7 +4544,7 @@
         "modern-work",
         "security"
       ],
-      "html": "<h1>Summary — Microsoft 365 E3 feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;M365 E3 Overview&quot; (raw/2026-10-19-m365-e3-feature-mindmap.html). It is a personal reference, not official Microsoft documentation.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>E3 is three layers:</strong> <a href=\"#note/10-notes/entities/office-365-e3\">office-365-e3</a> (productivity and baseline compliance), <a href=\"#note/10-notes/entities/ems-e3\">ems-e3</a> (identity and endpoint), plus ME3-only extras (Windows 11 Enterprise, <a href=\"#note/10-notes/entities/microsoft-defender-for-endpoint\">microsoft-defender-for-endpoint</a> P1, Universal Print, Loop). See <a href=\"#note/10-notes/concepts/m365-licensing-stack\">m365-licensing-stack</a>.</li>\n<li><strong>Security is spread across all three layers:</strong> email hygiene and compliance in O365 E3, identity controls in <a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> P1, device controls in <a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a>, and endpoint protection in MDE P1.</li>\n<li><strong>Intune Plan 2 is now in E3:</strong> since July 2026, E3 includes Intune Plan 2 (Tunnel for MAM, FOTA, specialty devices), Remote Help and Advanced Analytics, which confirms this map (claims 003–004). MDO Plan 1 in O365 E3 is also confirmed from July 2026 (claim-005).</li>\n</ol>\n<h2>Office 365 E3</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Apps</td>\n<td>Office apps (desktop client)</td>\n</tr>\n<tr>\n<td>Exchange Online</td>\n<td>100 GB mailbox, 1.5 TB archive</td>\n</tr>\n<tr>\n<td>OneDrive</td>\n<td>5 TB maximum; <strong>1 TB default</strong> per user, which an admin raises</td>\n</tr>\n<tr>\n<td>SharePoint Online</td>\n<td>1 TB tenant + 10 GB per user, pooled</td>\n</tr>\n<tr>\n<td>Teams</td>\n<td>Meetings, chats, webinars, town halls</td>\n</tr>\n<tr>\n<td>Viva (seeded)</td>\n<td>Engage, Connections, Learning, Personal Insights</td>\n</tr>\n<tr>\n<td>Other apps</td>\n<td>Stream, Planner, To Do, Forms, Lists, Clipchamp, Power Apps and Power Automate (standard connectors)</td>\n</tr>\n<tr>\n<td>Security and compliance</td>\n<td>DLP (Exchange, SharePoint, OneDrive), anti-malware, anti-spam, eDiscovery and Content Search, retention policies, Litigation Hold, MDO Plan 1 → <a href=\"#note/40-resources/summary-mdo-plan1-feature-map\">summary-mdo-plan1-feature-map</a></td>\n</tr>\n</tbody></table>\n<h2>EMS E3</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> P1</td>\n<td><a href=\"#note/10-notes/concepts/conditional-access\">conditional-access</a>, MFA, SSO, hybrid SSPR, group-based access, App Proxy, password protection (incl. AD DS), Cloud App Discovery</td>\n</tr>\n<tr>\n<td><a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a></td>\n<td>MDM, MAM, config profiles, app protection, patching, compliance policies, remote actions, Tunnel for MAM, specialty devices (AR/VR), FOTA, Remote Help, Advanced Endpoint Analytics. See <a href=\"#note/10-notes/concepts/mdm-vs-mam\">mdm-vs-mam</a>.</td>\n</tr>\n<tr>\n<td>Information protection</td>\n<td>MIP / AIP Plan 1: <strong>manual</strong> sensitivity labelling. Auto-labelling needs AIP Plan 2 (E5); see <a href=\"#note/10-notes/entities/microsoft-purview\">microsoft-purview</a>.</td>\n</tr>\n<tr>\n<td>Rights</td>\n<td>Windows Server CAL rights</td>\n</tr>\n</tbody></table>\n<h2>ME3 additional features</h2>\n<ul>\n<li><a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise</a>: now ingested, see <a href=\"#note/40-resources/summary-windows-11-enterprise-feature-map\">summary-windows-11-enterprise-feature-map</a>.</li>\n<li><a href=\"#note/10-notes/entities/microsoft-defender-for-endpoint\">microsoft-defender-for-endpoint</a> P1: attack surface reduction, web protection and filtering, device control (USB), centralised AV management.</li>\n<li>Universal Print (100 jobs per month).</li>\n<li>Microsoft Loop (full workspaces).</li>\n</ul>\n<h2>Open questions</h2>\n<blockquote>\n<p>[!note] <strong>Resolved:</strong> Tunnel for MAM (claim-003) and Intune Plan 2 (claim-004) are in E3 from July 2026, Intune Plan 2 being the licence that carries Tunnel (<a href=\"#note/10-notes/entities/microsoft-intune-suite\">microsoft-intune-suite</a>). The Intune-vs-ManageEngine deck was written before that change.</p>\n</blockquote>\n<blockquote>\n<p>[!note] <strong>OneDrive settled:</strong> <strong>1 TB default, 5 TB maximum</strong>, confirmed by Jaspreet on 2026-10-19 (claim-002).\n[!note] <strong>Storage settled:</strong> OneDrive in M365 E3 is <strong>5 TB</strong>, confirmed by Jaspreet on 2026-10-19 (claim-002). The Copilot deck&#39;s &quot;Unlimited&quot; is out of date (<a href=\"#note/40-resources/summary-elevate-security-for-copilot-e1-plus-deck\">summary-elevate-security-for-copilot-e1-plus-deck#claim-002</a>).</p>\n</blockquote>\n<blockquote>\n<p>[!note] <strong>Resolved:</strong> Defender for Office 365 <strong>Plan 1</strong> is in O365 E3 and M365 E3 from <strong>1 July 2026</strong>, per the Microsoft Learn service description (claim-005). E3 gets Plan 1 capabilities only.</p>\n</blockquote>\n<blockquote>\n<p>[!note] <strong>Resolved:</strong> Intune Plan 1 &amp; 2, Remote Help and Advanced Endpoint Analytics are in E3 from July 2026 (claim-004).</p>\n</blockquote>\n<p>Related: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a> · <a href=\"#note/10-notes/concepts/email-and-collaboration-protection-layers\">email-and-collaboration-protection-layers</a> · <a href=\"#note/_meta/mocs/moc-copilot-security-readiness\">moc-copilot-security-readiness</a> · lower tier: <a href=\"#note/40-resources/summary-o365-e1-plus-feature-map\">summary-o365-e1-plus-feature-map</a></p>\n"
+      "html": "<h1>Summary — Microsoft 365 E3 feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;M365 E3 Overview&quot; (<code title=\"raw/2026-10-19-m365-e3-feature-mindmap.html\">raw/2026-10-19-m365-e3-feature-mindmap.html</code>). It is a personal reference, not official Microsoft documentation.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>E3 is three layers:</strong> <a href=\"#note/10-notes/entities/office-365-e3\">office-365-e3</a> (productivity and baseline compliance), <a href=\"#note/10-notes/entities/ems-e3\">ems-e3</a> (identity and endpoint), plus ME3-only extras (Windows 11 Enterprise, <a href=\"#note/10-notes/entities/microsoft-defender-for-endpoint\">microsoft-defender-for-endpoint</a> P1, Universal Print, Loop). See <a href=\"#note/10-notes/concepts/m365-licensing-stack\">m365-licensing-stack</a>.</li>\n<li><strong>Security is spread across all three layers:</strong> email hygiene and compliance in O365 E3, identity controls in <a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> P1, device controls in <a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a>, and endpoint protection in MDE P1.</li>\n<li><strong>Intune Plan 2 is now in E3:</strong> since July 2026, E3 includes Intune Plan 2 (Tunnel for MAM, FOTA, specialty devices), Remote Help and Advanced Analytics, which confirms this map (claims 003–004). MDO Plan 1 in O365 E3 is also confirmed from July 2026 (claim-005).</li>\n</ol>\n<h2>Office 365 E3</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Apps</td>\n<td>Office apps (desktop client)</td>\n</tr>\n<tr>\n<td>Exchange Online</td>\n<td>100 GB mailbox, 1.5 TB archive</td>\n</tr>\n<tr>\n<td>OneDrive</td>\n<td>5 TB maximum; <strong>1 TB default</strong> per user, which an admin raises</td>\n</tr>\n<tr>\n<td>SharePoint Online</td>\n<td>1 TB tenant + 10 GB per user, pooled</td>\n</tr>\n<tr>\n<td>Teams</td>\n<td>Meetings, chats, webinars, town halls</td>\n</tr>\n<tr>\n<td>Viva (seeded)</td>\n<td>Engage, Connections, Learning, Personal Insights</td>\n</tr>\n<tr>\n<td>Other apps</td>\n<td>Stream, Planner, To Do, Forms, Lists, Clipchamp, Power Apps and Power Automate (standard connectors)</td>\n</tr>\n<tr>\n<td>Security and compliance</td>\n<td>DLP (Exchange, SharePoint, OneDrive), anti-malware, anti-spam, eDiscovery and Content Search, retention policies, Litigation Hold, MDO Plan 1 → <a href=\"#note/40-resources/summary-mdo-plan1-feature-map\">summary-mdo-plan1-feature-map</a></td>\n</tr>\n</tbody></table>\n<h2>EMS E3</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> P1</td>\n<td><a href=\"#note/10-notes/concepts/conditional-access\">conditional-access</a>, MFA, SSO, hybrid SSPR, group-based access, App Proxy, password protection (incl. AD DS), Cloud App Discovery</td>\n</tr>\n<tr>\n<td><a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a></td>\n<td>MDM, MAM, config profiles, app protection, patching, compliance policies, remote actions, Tunnel for MAM, specialty devices (AR/VR), FOTA, Remote Help, Advanced Endpoint Analytics. See <a href=\"#note/10-notes/concepts/mdm-vs-mam\">mdm-vs-mam</a>.</td>\n</tr>\n<tr>\n<td>Information protection</td>\n<td>MIP / AIP Plan 1: <strong>manual</strong> sensitivity labelling. Auto-labelling needs AIP Plan 2 (E5); see <a href=\"#note/10-notes/entities/microsoft-purview\">microsoft-purview</a>.</td>\n</tr>\n<tr>\n<td>Rights</td>\n<td>Windows Server CAL rights</td>\n</tr>\n</tbody></table>\n<h2>ME3 additional features</h2>\n<ul>\n<li><a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise</a>: now ingested, see <a href=\"#note/40-resources/summary-windows-11-enterprise-feature-map\">summary-windows-11-enterprise-feature-map</a>.</li>\n<li><a href=\"#note/10-notes/entities/microsoft-defender-for-endpoint\">microsoft-defender-for-endpoint</a> P1: attack surface reduction, web protection and filtering, device control (USB), centralised AV management.</li>\n<li>Universal Print (100 jobs per month).</li>\n<li>Microsoft Loop (full workspaces).</li>\n</ul>\n<h2>Open questions</h2>\n<blockquote>\n<p>[!note] <strong>Resolved:</strong> Tunnel for MAM (claim-003) and Intune Plan 2 (claim-004) are in E3 from July 2026, Intune Plan 2 being the licence that carries Tunnel (<a href=\"#note/10-notes/entities/microsoft-intune-suite\">microsoft-intune-suite</a>). The Intune-vs-ManageEngine deck was written before that change.</p>\n</blockquote>\n<blockquote>\n<p>[!note] <strong>OneDrive settled:</strong> <strong>1 TB default, 5 TB maximum</strong>, confirmed by Jaspreet on 2026-10-19 (claim-002).\n[!note] <strong>Storage settled:</strong> OneDrive in M365 E3 is <strong>5 TB</strong>, confirmed by Jaspreet on 2026-10-19 (claim-002). The Copilot deck&#39;s &quot;Unlimited&quot; is out of date (<a href=\"#note/40-resources/summary-elevate-security-for-copilot-e1-plus-deck\">summary-elevate-security-for-copilot-e1-plus-deck#claim-002</a>).</p>\n</blockquote>\n<blockquote>\n<p>[!note] <strong>Resolved:</strong> Defender for Office 365 <strong>Plan 1</strong> is in O365 E3 and M365 E3 from <strong>1 July 2026</strong>, per the Microsoft Learn service description (claim-005). E3 gets Plan 1 capabilities only.</p>\n</blockquote>\n<blockquote>\n<p>[!note] <strong>Resolved:</strong> Intune Plan 1 &amp; 2, Remote Help and Advanced Endpoint Analytics are in E3 from July 2026 (claim-004).</p>\n</blockquote>\n<p>Related: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a> · <a href=\"#note/10-notes/concepts/email-and-collaboration-protection-layers\">email-and-collaboration-protection-layers</a> · <a href=\"#note/_meta/mocs/moc-copilot-security-readiness\">moc-copilot-security-readiness</a> · lower tier: <a href=\"#note/40-resources/summary-o365-e1-plus-feature-map\">summary-o365-e1-plus-feature-map</a></p>\n"
     },
     "40-resources/summary-mdo-plan1-feature-map": {
       "id": "40-resources/summary-mdo-plan1-feature-map",
@@ -5965,7 +4556,7 @@
         "licensing",
         "email-security"
       ],
-      "html": "<h1>Summary — Defender for Office 365 Plan 1 feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;Microsoft Defender for Office Plan1&quot; (raw/2026-10-19-mdo-plan1-feature-mindmap.html). It is linked from <a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a>.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>MDO P1 extends protection beyond email</strong> to Teams, SharePoint and OneDrive: Safe Attachments, Safe Links and ZAP all cover Teams.</li>\n<li><strong>P1 is protection plus basic investigation:</strong> real-time detections and reports, without the advanced hunting or automation of a higher plan. This is my inference; the source does not list P2.</li>\n<li><strong>Admin tooling targets a secure baseline:</strong> Standard/Strict preset policies, Configuration Analyzer and the Tenant Allow/Block List.</li>\n</ol>\n<h2>Capabilities</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>Capabilities</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Threat protection</td>\n<td>Safe Attachments (incl. Teams); Safe Links (incl. Teams); anti-phishing (user and domain impersonation); Safe Attachments for SharePoint, OneDrive and Teams</td>\n</tr>\n<tr>\n<td>Mail hygiene</td>\n<td>Zero-hour Auto Purge (ZAP, incl. Teams); advanced protection for internal mail</td>\n</tr>\n<tr>\n<td>Threat investigation</td>\n<td>Real-time detections; real-time reports</td>\n</tr>\n<tr>\n<td>Policy and admin</td>\n<td>Preset security policies (Standard / Strict); policy tuning; Configuration Analyzer; Tenant Allow/Block List</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>[!note] <strong>Licensing:</strong> Plan 1 is included in O365 E3 and M365 E3 since 1 July 2026 (<a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map#claim-005</a>).</p>\n</blockquote>\n<p>Entity: <a href=\"#note/10-notes/entities/microsoft-defender-for-office-365\">microsoft-defender-for-office-365</a> · Concept: <a href=\"#note/10-notes/concepts/email-and-collaboration-protection-layers\">email-and-collaboration-protection-layers</a> · MOC: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a></p>\n"
+      "html": "<h1>Summary — Defender for Office 365 Plan 1 feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;Microsoft Defender for Office Plan1&quot; (<code title=\"raw/2026-10-19-mdo-plan1-feature-mindmap.html\">raw/2026-10-19-mdo-plan1-feature-mindmap.html</code>). It is linked from <a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a>.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>MDO P1 extends protection beyond email</strong> to Teams, SharePoint and OneDrive: Safe Attachments, Safe Links and ZAP all cover Teams.</li>\n<li><strong>P1 is protection plus basic investigation:</strong> real-time detections and reports, without the advanced hunting or automation of a higher plan. This is my inference; the source does not list P2.</li>\n<li><strong>Admin tooling targets a secure baseline:</strong> Standard/Strict preset policies, Configuration Analyzer and the Tenant Allow/Block List.</li>\n</ol>\n<h2>Capabilities</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>Capabilities</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Threat protection</td>\n<td>Safe Attachments (incl. Teams); Safe Links (incl. Teams); anti-phishing (user and domain impersonation); Safe Attachments for SharePoint, OneDrive and Teams</td>\n</tr>\n<tr>\n<td>Mail hygiene</td>\n<td>Zero-hour Auto Purge (ZAP, incl. Teams); advanced protection for internal mail</td>\n</tr>\n<tr>\n<td>Threat investigation</td>\n<td>Real-time detections; real-time reports</td>\n</tr>\n<tr>\n<td>Policy and admin</td>\n<td>Preset security policies (Standard / Strict); policy tuning; Configuration Analyzer; Tenant Allow/Block List</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>[!note] <strong>Licensing:</strong> Plan 1 is included in O365 E3 and M365 E3 since 1 July 2026 (<a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map#claim-005</a>).</p>\n</blockquote>\n<p>Entity: <a href=\"#note/10-notes/entities/microsoft-defender-for-office-365\">microsoft-defender-for-office-365</a> · Concept: <a href=\"#note/10-notes/concepts/email-and-collaboration-protection-layers\">email-and-collaboration-protection-layers</a> · MOC: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a></p>\n"
     },
     "40-resources/summary-o365-e1-plus-feature-map": {
       "id": "40-resources/summary-o365-e1-plus-feature-map",
@@ -5977,7 +4568,7 @@
         "modern-work",
         "security"
       ],
-      "html": "<h1>Summary — Office 365 E1 Plus feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;Office 365 E1 Plus&quot; (raw/2026-10-19-o365-e1-plus-feature-mindmap.html). It is a personal reference, not official Microsoft documentation.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>E1 Plus = web-only Office 365 E1 + Entra ID P1 + Intune P1 + Office 365 DLP.</strong> It is a lightweight Zero Trust starter. See <a href=\"#note/10-notes/entities/office-365-e1-plus\">office-365-e1-plus</a>.</li>\n<li><strong>It carries the same identity stack as E3:</strong> the Entra ID P1 feature list is the same as in <a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a>.</li>\n<li><strong>The gaps against <a href=\"#note/10-notes/entities/office-365-e3\">office-365-e3</a>:</strong> web apps only, 50 GB mailbox and 50 GB archive, 1 TB OneDrive, manual retention labels only, no eDiscovery, no Defender for Office 365.</li>\n</ol>\n<h2>Productivity and collaboration</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Apps</td>\n<td>Office for the web (Word, Excel, PowerPoint, Outlook)</td>\n</tr>\n<tr>\n<td>Exchange Online</td>\n<td>50 GB mailbox + 50 GB archive</td>\n</tr>\n<tr>\n<td>OneDrive</td>\n<td>1 TB</td>\n</tr>\n<tr>\n<td>SharePoint</td>\n<td>1 TB + 10 GB per user</td>\n</tr>\n<tr>\n<td>Other</td>\n<td>Teams, Viva (Engage, Connections, Learning, Insights), Stream, Planner, To Do, Forms, Lists, Power Apps and Power Automate (no premium connectors)</td>\n</tr>\n</tbody></table>\n<h2>Security and compliance</h2>\n<ul>\n<li>DLP for Exchange, SharePoint and OneDrive</li>\n<li>Anti-malware and anti-spam (<a href=\"#note/10-notes/entities/exchange-online-protection\">exchange-online-protection</a>)</li>\n<li>Manual retention labels (Exchange, SharePoint, Teams)</li>\n</ul>\n<h2>Identity and device management</h2>\n<ul>\n<li><strong><a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a>:</strong> MDM, MAM, configuration profiles, app protection, patching, compliance policies, remote actions, Endpoint Analytics. The map does not name the plan; the deck says Plan 1.</li>\n<li><strong><a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> P1:</strong> <a href=\"#note/10-notes/concepts/conditional-access\">conditional-access</a>, MFA, SSO, hybrid SSPR, group-based access, App Proxy, password protection (incl. AD DS), Cloud App Discovery.</li>\n</ul>\n<blockquote>\n<p>[!warning] The map lists <strong>Microsoft Teams</strong> as included. The deck says Teams is a separate purchase for net-new customers (<a href=\"#note/40-resources/summary-elevate-security-for-copilot-e1-plus-deck\">summary-elevate-security-for-copilot-e1-plus-deck</a>). Treat Teams as dependent on the customer&#39;s agreement.</p>\n</blockquote>\n<p>Related: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a> · <a href=\"#note/_meta/mocs/moc-copilot-security-readiness\">moc-copilot-security-readiness</a></p>\n"
+      "html": "<h1>Summary — Office 365 E1 Plus feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;Office 365 E1 Plus&quot; (<code title=\"raw/2026-10-19-o365-e1-plus-feature-mindmap.html\">raw/2026-10-19-o365-e1-plus-feature-mindmap.html</code>). It is a personal reference, not official Microsoft documentation.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>E1 Plus = web-only Office 365 E1 + Entra ID P1 + Intune P1 + Office 365 DLP.</strong> It is a lightweight Zero Trust starter. See <a href=\"#note/10-notes/entities/office-365-e1-plus\">office-365-e1-plus</a>.</li>\n<li><strong>It carries the same identity stack as E3:</strong> the Entra ID P1 feature list is the same as in <a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a>.</li>\n<li><strong>The gaps against <a href=\"#note/10-notes/entities/office-365-e3\">office-365-e3</a>:</strong> web apps only, 50 GB mailbox and 50 GB archive, 1 TB OneDrive, manual retention labels only, no eDiscovery, no Defender for Office 365.</li>\n</ol>\n<h2>Productivity and collaboration</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Apps</td>\n<td>Office for the web (Word, Excel, PowerPoint, Outlook)</td>\n</tr>\n<tr>\n<td>Exchange Online</td>\n<td>50 GB mailbox + 50 GB archive</td>\n</tr>\n<tr>\n<td>OneDrive</td>\n<td>1 TB</td>\n</tr>\n<tr>\n<td>SharePoint</td>\n<td>1 TB + 10 GB per user</td>\n</tr>\n<tr>\n<td>Other</td>\n<td>Teams, Viva (Engage, Connections, Learning, Insights), Stream, Planner, To Do, Forms, Lists, Power Apps and Power Automate (no premium connectors)</td>\n</tr>\n</tbody></table>\n<h2>Security and compliance</h2>\n<ul>\n<li>DLP for Exchange, SharePoint and OneDrive</li>\n<li>Anti-malware and anti-spam (<a href=\"#note/10-notes/entities/exchange-online-protection\">exchange-online-protection</a>)</li>\n<li>Manual retention labels (Exchange, SharePoint, Teams)</li>\n</ul>\n<h2>Identity and device management</h2>\n<ul>\n<li><strong><a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a>:</strong> MDM, MAM, configuration profiles, app protection, patching, compliance policies, remote actions, Endpoint Analytics. The map does not name the plan; the deck says Plan 1.</li>\n<li><strong><a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> P1:</strong> <a href=\"#note/10-notes/concepts/conditional-access\">conditional-access</a>, MFA, SSO, hybrid SSPR, group-based access, App Proxy, password protection (incl. AD DS), Cloud App Discovery.</li>\n</ul>\n<blockquote>\n<p>[!warning] The map lists <strong>Microsoft Teams</strong> as included. The deck says Teams is a separate purchase for net-new customers (<a href=\"#note/40-resources/summary-elevate-security-for-copilot-e1-plus-deck\">summary-elevate-security-for-copilot-e1-plus-deck</a>). Treat Teams as dependent on the customer&#39;s agreement.</p>\n</blockquote>\n<p>Related: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a> · <a href=\"#note/_meta/mocs/moc-copilot-security-readiness\">moc-copilot-security-readiness</a></p>\n"
     },
     "40-resources/summary-passwordless-journey-2022": {
       "id": "40-resources/summary-passwordless-journey-2022",
@@ -6014,7 +4605,7 @@
         "endpoint",
         "security"
       ],
-      "html": "<h1>Summary — Windows 11 Enterprise feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;Windows 11 Enterprise&quot; (raw/2026-10-19-windows-11-enterprise-feature-mindmap.html). It is linked from <a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a> as an ME3-only feature, which closes the gap logged at the last ingest.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>Rights:</strong> run up to <strong>5 Windows environments</strong> per user (local, AVD, Windows 365, on-premises VDI under VDA).</li>\n<li><strong>Servicing is the big differentiator:</strong> <a href=\"#note/10-notes/entities/windows-autopatch\">windows-autopatch</a>, 36 months of support per yearly feature update, feature-update pinning for up to 3 years, expedited zero-day updates, Hotpatch.</li>\n<li><strong>Security hardening beyond Pro:</strong> Credential Guard, Personal Data Encryption, and advanced BitLocker management with keys escrowed in Entra ID and rotated through Intune.</li>\n</ol>\n<h2>Capabilities</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Rights</td>\n<td>Up to 5 Windows environments: local, AVD, Windows 365, on-premises VDI (VDA)</td>\n</tr>\n<tr>\n<td>Update management</td>\n<td><a href=\"#note/10-notes/entities/windows-autopatch\">windows-autopatch</a> (ring-based patching, update-currency SLO, pause and rollback); 36-month support; feature update pinning (up to 3 years); expedited updates; Windows Hotpatch</td>\n</tr>\n<tr>\n<td>Resilience</td>\n<td>Quick machine recovery; point-in-time restore</td>\n</tr>\n<tr>\n<td>Connectivity</td>\n<td>Always-on VPN (user and device tunnel) — see <a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise#claim-001</a></td>\n</tr>\n<tr>\n<td>Printing</td>\n<td>Universal Print</td>\n</tr>\n<tr>\n<td>Security</td>\n<td>Credential Guard; Personal Data Encryption; BitLocker and BitLocker To Go advanced management: enforce cipher, block writes to unencrypted removable media, silent deployment, TPM + PIN pre-boot, PIN complexity, block encryption until keys are escrowed in <a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a>, key rotation via <a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a>, reporting</td>\n</tr>\n<tr>\n<td>Experience</td>\n<td>Organizational Messages (M365 admin center)</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>[!note] <strong>Corroborated</strong> by the 2026 Microsoft decks (<a href=\"#note/40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready\">summary-windows-11-enterprise-secure-managed-cloud-ready</a>, <a href=\"#note/40-resources/summary-windows-11-enterprise-l100-deck\">summary-windows-11-enterprise-l100-deck</a>): 5 instances, Autopatch rings, 36-month support, Expedite, Hotpatch, QMR and PITR, BitLocker controls, Credential Guard, PDE, Universal Print, org messages. Pinning: &quot;up to 3 years&quot; here and &quot;1,060 days&quot; there are the same limit.</p>\n</blockquote>\n<p>Entity: <a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise</a> · Suite: <a href=\"#note/10-notes/entities/microsoft-365-e3\">microsoft-365-e3</a> · MOC: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a></p>\n"
+      "html": "<h1>Summary — Windows 11 Enterprise feature map</h1>\n<p><strong>Source:</strong> Jaspreet&#39;s own Markmap mind map, &quot;Windows 11 Enterprise&quot; (<code title=\"raw/2026-10-19-windows-11-enterprise-feature-mindmap.html\">raw/2026-10-19-windows-11-enterprise-feature-mindmap.html</code>). It is linked from <a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a> as an ME3-only feature, which closes the gap logged at the last ingest.</p>\n<h2>Key takeaways</h2>\n<ol>\n<li><strong>Rights:</strong> run up to <strong>5 Windows environments</strong> per user (local, AVD, Windows 365, on-premises VDI under VDA).</li>\n<li><strong>Servicing is the big differentiator:</strong> <a href=\"#note/10-notes/entities/windows-autopatch\">windows-autopatch</a>, 36 months of support per yearly feature update, feature-update pinning for up to 3 years, expedited zero-day updates, Hotpatch.</li>\n<li><strong>Security hardening beyond Pro:</strong> Credential Guard, Personal Data Encryption, and advanced BitLocker management with keys escrowed in Entra ID and rotated through Intune.</li>\n</ol>\n<h2>Capabilities</h2>\n<table>\n<thead>\n<tr>\n<th>Area</th>\n<th>What the map lists</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Rights</td>\n<td>Up to 5 Windows environments: local, AVD, Windows 365, on-premises VDI (VDA)</td>\n</tr>\n<tr>\n<td>Update management</td>\n<td><a href=\"#note/10-notes/entities/windows-autopatch\">windows-autopatch</a> (ring-based patching, update-currency SLO, pause and rollback); 36-month support; feature update pinning (up to 3 years); expedited updates; Windows Hotpatch</td>\n</tr>\n<tr>\n<td>Resilience</td>\n<td>Quick machine recovery; point-in-time restore</td>\n</tr>\n<tr>\n<td>Connectivity</td>\n<td>Always-on VPN (user and device tunnel) — see <a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise#claim-001</a></td>\n</tr>\n<tr>\n<td>Printing</td>\n<td>Universal Print</td>\n</tr>\n<tr>\n<td>Security</td>\n<td>Credential Guard; Personal Data Encryption; BitLocker and BitLocker To Go advanced management: enforce cipher, block writes to unencrypted removable media, silent deployment, TPM + PIN pre-boot, PIN complexity, block encryption until keys are escrowed in <a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a>, key rotation via <a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a>, reporting</td>\n</tr>\n<tr>\n<td>Experience</td>\n<td>Organizational Messages (M365 admin center)</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>[!note] <strong>Corroborated</strong> by the 2026 Microsoft decks (<a href=\"#note/40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready\">summary-windows-11-enterprise-secure-managed-cloud-ready</a>, <a href=\"#note/40-resources/summary-windows-11-enterprise-l100-deck\">summary-windows-11-enterprise-l100-deck</a>): 5 instances, Autopatch rings, 36-month support, Expedite, Hotpatch, QMR and PITR, BitLocker controls, Credential Guard, PDE, Universal Print, org messages. Pinning: &quot;up to 3 years&quot; here and &quot;1,060 days&quot; there are the same limit.</p>\n</blockquote>\n<p>Entity: <a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise</a> · Suite: <a href=\"#note/10-notes/entities/microsoft-365-e3\">microsoft-365-e3</a> · MOC: <a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a></p>\n"
     },
     "40-resources/summary-windows-11-enterprise-l100-deck": {
       "id": "40-resources/summary-windows-11-enterprise-l100-deck",
@@ -6075,7 +4666,7 @@
         "meta",
         "schema"
       ],
-      "html": "<h1>AGENTS.md</h1>\n<p>Operating manual for any AI agent (and for me) working in this Second Brain. Pattern: Karpathy-style LLM wiki — raw sources in, a compiled wiki out, governed by a schema.</p>\n<h2>1. Three layers and ownership</h2>\n<table>\n<thead>\n<tr>\n<th>Layer</th>\n<th>Folders</th>\n<th>Owner</th>\n<th>Rule</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Raw</strong></td>\n<td><code>raw/</code>, <code>00-Inbox/</code></td>\n<td>Human</td>\n<td>Immutable. Agent may add a copy or reference; never edits or deletes.</td>\n</tr>\n<tr>\n<td><strong>Wiki</strong></td>\n<td><code>10-Notes/</code>, <code>20-Projects/</code>, <code>30-Areas/</code>, <code>40-Resources/</code>, <code>index.md</code>, <code>log.md</code>, <code>_meta/MOCs/</code></td>\n<td>Agent (human reviews)</td>\n<td>Compiled knowledge. Agent creates and updates; every claim traces to a raw source.</td>\n</tr>\n<tr>\n<td><strong>Schema</strong></td>\n<td><code>AGENTS.md</code>, <code>_meta/conventions.md</code>, <code>_meta/templates/</code></td>\n<td>Human</td>\n<td>Rules of the vault. Agent proposes changes; human approves.</td>\n</tr>\n</tbody></table>\n<h2>2. Folder conventions and naming</h2>\n<table>\n<thead>\n<tr>\n<th>Folder</th>\n<th>Holds</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>raw/</code></td>\n<td>Original sources (PDFs, transcripts, clippings, links). Never modified.</td>\n</tr>\n<tr>\n<td><code>00-Inbox/</code></td>\n<td>Quick captures awaiting processing. Cleared weekly.</td>\n</tr>\n<tr>\n<td><code>10-Notes/entities/</code></td>\n<td>People, orgs, products, tools — one per page.</td>\n</tr>\n<tr>\n<td><code>10-Notes/concepts/</code></td>\n<td>Ideas, frameworks, patterns — one per page.</td>\n</tr>\n<tr>\n<td><code>20-Projects/</code></td>\n<td>Time-bound work with a goal and end date.</td>\n</tr>\n<tr>\n<td><code>30-Areas/</code></td>\n<td>Ongoing responsibilities (no end date).</td>\n</tr>\n<tr>\n<td><code>40-Resources/</code></td>\n<td>Source summaries and analysis pages.</td>\n</tr>\n<tr>\n<td><code>50-Archive/</code></td>\n<td>Finished or inactive items. Move, never delete.</td>\n</tr>\n<tr>\n<td><code>_meta/</code></td>\n<td>Schema, MOCs, templates.</td>\n</tr>\n</tbody></table>\n<p>Naming: atomic notes in <code>kebab-case.md</code> (e.g. <code>microsoft-copilot.md</code>); Inbox captures and raw files as <code>YYYY-MM-DD-slug.ext</code>; summaries as <code>summary-&lt;slug&gt;.md</code>; analyses as <code>analysis-&lt;slug&gt;.md</code>; MOCs as <code>moc-&lt;topic&gt;.md</code> (except <code>home.md</code>). Full rules: <code>[conventions](#note/_meta/conventions)</code>.</p>\n<h2>3. Page types and frontmatter</h2>\n<p>Types: <code>entity</code>, <code>concept</code>, <code>summary</code>, <code>analysis</code>, <code>project</code>, <code>area</code>, <code>moc</code>, <code>capture</code>, <code>schema</code>.</p>\n<p>Every wiki page starts with:</p>\n<pre><code class=\"language-yaml\">---\ntitle: Human-readable title\ntype: entity | concept | summary | analysis | project | area | moc | capture | schema\ncreated: YYYY-MM-DD\nupdated: YYYY-MM-DD\ntags: [topic, subtopic]\nsources: [&quot;raw/2026-10-18-source-slug&quot;]\nstatus: draft | active | evergreen | stale | archived\n---\n</code></pre>\n<p>A page missing any of the seven fields fails lint.</p>\n<h3>Optional: claims block</h3>\n<p>Use <code>claims:</code> in frontmatter for assertions worth tracking individually (facts, numbers, predictions, decisions). Most useful on entity, concept, summary and analysis pages.</p>\n<pre><code class=\"language-yaml\">claims:\n  - id: claim-001\n    text: &quot;&lt;one atomic assertion&gt;&quot;\n    confidence: 0.8\n    status: provisional | evergreen | disputed\n    evidence:\n      - source: raw/2026-10-19-source-slug.md\n        kind: documentation | quote | observation\n        excerpt: &quot;&lt;short quote, under 30 words&gt;&quot;\n    captured: YYYY-MM-DD\n    updated: YYYY-MM-DD\n</code></pre>\n<p>Rules:</p>\n<ul>\n<li><code>id</code> is unique within the page (<code>claim-001</code>, <code>claim-002</code>, …); cite elsewhere as <code>page#claim-001</code>.</li>\n<li>One assertion per claim. <code>confidence</code> is 0.0–1.0: below 0.5 is a hunch, 0.5–0.8 is likely, above 0.8 is well supported.</li>\n<li><code>status</code>: <code>provisional</code> = new or single-source; <code>evergreen</code> = confirmed by 2+ sources or durable by nature; <code>disputed</code> = credible evidence on both sides.</li>\n<li>Every <code>evidence.source</code> points to a file in <code>raw/</code>. <code>documentation</code> = official docs or specs; <code>quote</code> = a person&#39;s words; <code>observation</code> = something I saw first-hand.</li>\n<li>When new evidence conflicts, add it to the claim, set <code>status: disputed</code>, adjust <code>confidence</code>, bump <code>updated</code>, and log it. Never delete evidence.</li>\n</ul>\n<h2>4. Operations</h2>\n<h3>ingest (raw → wiki)</h3>\n<ol>\n<li>Read the source in full.</li>\n<li>Save a copy or reference to <code>raw/</code> as <code>YYYY-MM-DD-slug</code>.</li>\n<li>Give the human 1–3 key takeaways; discuss before writing.</li>\n<li>Write <code>40-Resources/summary-&lt;slug&gt;.md</code> with citations.</li>\n<li>Create or update entity pages for people, orgs, products.</li>\n<li>Create or update concept pages for ideas worth tracking.</li>\n<li>Update relevant MOCs in <code>_meta/MOCs/</code>.</li>\n<li>Update <code>index.md</code>; append to <code>log.md</code>.</li>\n<li>Report every page touched.</li>\n</ol>\n<h3>query (wiki → answer)</h3>\n<ol>\n<li>Read <code>index.md</code> first.</li>\n<li>Drill into relevant pages; follow <code>links</code>.</li>\n<li>Synthesize an answer citing wiki pages; no fresh web search unless asked.</li>\n<li>If the answer is non-trivial, offer to file it as <code>40-Resources/analysis-&lt;slug&gt;.md</code>, then update index and log.</li>\n</ol>\n<h3>lint (health check)</h3>\n<p>Report, then wait for approval before fixing.</p>\n<p>Pages:</p>\n<ul>\n<li><strong>Contradictions</strong> — pages that disagree, in prose or in claims.</li>\n<li><strong>Orphans</strong> — pages nothing links to.</li>\n<li><strong>Stale pages</strong> — <code>status: evergreen</code> with page <code>updated</code> older than 90 days.</li>\n<li><strong>Missing</strong> — concepts mentioned often with no page; missing cross-references; missing frontmatter fields.</li>\n<li><strong>Inbox backlog</strong> — captures older than 7 days.</li>\n</ul>\n<p>Claims:</p>\n<ul>\n<li><strong>Disputed</strong> — every claim with <code>status: disputed</code>, with its evidence on each side.</li>\n<li><strong>No evidence</strong> — claims with an empty <code>evidence</code> list, or a <code>source</code> that isn&#39;t in <code>raw/</code>.</li>\n<li><strong>Cross-page contradictions</strong> — two claims on different pages that assert incompatible things about the same subject.</li>\n<li><strong>Stale evergreen</strong> — <code>status: evergreen</code> claims with <code>updated</code> older than 90 days.</li>\n<li><strong>Confidence mismatch</strong> — <code>evergreen</code> claims below 0.8 confidence, or a single source with confidence above 0.8.</li>\n</ul>\n<p>Report format: one table per check — page, claim id (if any), issue, suggested fix.</p>\n<h2>5. Log format</h2>\n<p><code>log.md</code> is append-only, newest at the bottom, one line per event, greppable:</p>\n<pre><code>## [YYYY-MM-DD] &lt;op&gt; | &lt;subject&gt;\n- touched: page-a, page-b\n- note: one line on what changed or why\n</code></pre>\n<p><code>&lt;op&gt;</code> is one of <code>ingest</code>, <code>query</code>, <code>lint</code>, <code>fix</code>, <code>schema</code>, <code>archive</code>, <code>claim</code>.\nFind all ingests: <code>grep &quot;] ingest&quot; log.md</code>.</p>\n<h2>6. House rules</h2>\n<ol>\n<li><strong>One idea per page.</strong> Split when a page covers two things.</li>\n<li><strong>Cite sources.</strong> Every factual claim links to a <code>raw/</code> file or a summary page; tracked claims carry <code>evidence</code>.</li>\n<li><strong>Flag uncertainty.</strong> Mark unverified claims <code>&gt; [!question]</code> and contradictions <code>&gt; [!warning]</code>.</li>\n<li><strong>Link, don&#39;t duplicate.</strong> Reference an existing page instead of restating it.</li>\n<li><strong>Never touch raw.</strong> Raw is append-only.</li>\n<li><strong>Show before saving</strong> schema changes; wiki edits are reported after.</li>\n<li><strong>Update <code>updated:</code></strong> on every edit.</li>\n</ol>\n"
+      "html": "<h1>AGENTS.md</h1>\n<p>Operating manual for any AI agent (and for me) working in this Second Brain. Pattern: Karpathy-style LLM wiki — raw sources in, a compiled wiki out, governed by a schema.</p>\n<h2>1. Three layers and ownership</h2>\n<table>\n<thead>\n<tr>\n<th>Layer</th>\n<th>Folders</th>\n<th>Owner</th>\n<th>Rule</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Raw</strong></td>\n<td><code>raw/</code>, <code>00-Inbox/</code></td>\n<td>Human</td>\n<td>Immutable. Agent may add a copy or reference; never edits or deletes.</td>\n</tr>\n<tr>\n<td><strong>Wiki</strong></td>\n<td><code>10-Notes/</code>, <code>20-Projects/</code>, <code>30-Areas/</code>, <code>40-Resources/</code>, <code>index.md</code>, <code>log.md</code>, <code>_meta/MOCs/</code></td>\n<td>Agent (human reviews)</td>\n<td>Compiled knowledge. Agent creates and updates; every claim traces to a raw source.</td>\n</tr>\n<tr>\n<td><strong>Schema</strong></td>\n<td><code>AGENTS.md</code>, <code>_meta/conventions.md</code>, <code>_meta/templates/</code></td>\n<td>Human</td>\n<td>Rules of the vault. Agent proposes changes; human approves.</td>\n</tr>\n</tbody></table>\n<h2>2. Folder conventions and naming</h2>\n<table>\n<thead>\n<tr>\n<th>Folder</th>\n<th>Holds</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>raw/</code></td>\n<td>Original sources (PDFs, transcripts, clippings, links). Never modified.</td>\n</tr>\n<tr>\n<td><code>00-Inbox/</code></td>\n<td>Quick captures awaiting processing. Cleared weekly.</td>\n</tr>\n<tr>\n<td><code>10-Notes/entities/</code></td>\n<td>People, orgs, products, tools — one per page.</td>\n</tr>\n<tr>\n<td><code>10-Notes/concepts/</code></td>\n<td>Ideas, frameworks, patterns — one per page.</td>\n</tr>\n<tr>\n<td><code>20-Projects/</code></td>\n<td>Time-bound work with a goal and end date.</td>\n</tr>\n<tr>\n<td><code>30-Areas/</code></td>\n<td>Ongoing responsibilities (no end date).</td>\n</tr>\n<tr>\n<td><code>40-Resources/</code></td>\n<td>Source summaries and analysis pages.</td>\n</tr>\n<tr>\n<td><code>50-Archive/</code></td>\n<td>Finished or inactive items. Move, never delete.</td>\n</tr>\n<tr>\n<td><code>_meta/</code></td>\n<td>Schema, MOCs, templates.</td>\n</tr>\n</tbody></table>\n<p>Naming: atomic notes in <code>kebab-case.md</code> (e.g. <code>microsoft-copilot.md</code>); Inbox captures and raw files as <code>YYYY-MM-DD-slug.ext</code>; summaries as <code>summary-&lt;slug&gt;.md</code>; analyses as <code>analysis-&lt;slug&gt;.md</code>; MOCs as <code>moc-&lt;topic&gt;.md</code> (except <code>home.md</code>). Full rules: <code>[[conventions]]</code>.</p>\n<h2>3. Page types and frontmatter</h2>\n<p>Types: <code>entity</code>, <code>concept</code>, <code>summary</code>, <code>analysis</code>, <code>project</code>, <code>area</code>, <code>moc</code>, <code>capture</code>, <code>schema</code>.</p>\n<p>Every wiki page starts with:</p>\n<pre><code class=\"language-yaml\">---\ntitle: Human-readable title\ntype: entity | concept | summary | analysis | project | area | moc | capture | schema\ncreated: YYYY-MM-DD\nupdated: YYYY-MM-DD\ntags: [topic, subtopic]\nsources: [&quot;[[raw/2026-10-18-source-slug]]&quot;]\nstatus: draft | active | evergreen | stale | archived\n---\n</code></pre>\n<p>A page missing any of the seven fields fails lint.</p>\n<h3>Optional: claims block</h3>\n<p>Use <code>claims:</code> in frontmatter for assertions worth tracking individually (facts, numbers, predictions, decisions). Most useful on entity, concept, summary and analysis pages.</p>\n<pre><code class=\"language-yaml\">claims:\n  - id: claim-001\n    text: &quot;&lt;one atomic assertion&gt;&quot;\n    confidence: 0.8\n    status: provisional | evergreen | disputed\n    evidence:\n      - source: raw/2026-10-19-source-slug.md\n        kind: documentation | quote | observation\n        excerpt: &quot;&lt;short quote, under 30 words&gt;&quot;\n    captured: YYYY-MM-DD\n    updated: YYYY-MM-DD\n</code></pre>\n<p>Rules:</p>\n<ul>\n<li><code>id</code> is unique within the page (<code>claim-001</code>, <code>claim-002</code>, …); cite elsewhere as <code>[[page#claim-001]]</code>.</li>\n<li>One assertion per claim. <code>confidence</code> is 0.0–1.0: below 0.5 is a hunch, 0.5–0.8 is likely, above 0.8 is well supported.</li>\n<li><code>status</code>: <code>provisional</code> = new or single-source; <code>evergreen</code> = confirmed by 2+ sources or durable by nature; <code>disputed</code> = credible evidence on both sides.</li>\n<li>Every <code>evidence.source</code> points to a file in <code>raw/</code>. <code>documentation</code> = official docs or specs; <code>quote</code> = a person&#39;s words; <code>observation</code> = something I saw first-hand.</li>\n<li>When new evidence conflicts, add it to the claim, set <code>status: disputed</code>, adjust <code>confidence</code>, bump <code>updated</code>, and log it. Never delete evidence.</li>\n</ul>\n<h2>4. Operations</h2>\n<h3>ingest (raw → wiki)</h3>\n<ol>\n<li>Read the source in full.</li>\n<li>Save a copy or reference to <code>raw/</code> as <code>YYYY-MM-DD-slug</code>.</li>\n<li>Give the human 1–3 key takeaways; discuss before writing.</li>\n<li>Write <code>40-Resources/summary-&lt;slug&gt;.md</code> with citations.</li>\n<li>Create or update entity pages for people, orgs, products.</li>\n<li>Create or update concept pages for ideas worth tracking.</li>\n<li>Update relevant MOCs in <code>_meta/MOCs/</code>.</li>\n<li>Update <code>index.md</code>; append to <code>log.md</code>.</li>\n<li>Report every page touched.</li>\n</ol>\n<h3>query (wiki → answer)</h3>\n<ol>\n<li>Read <code>index.md</code> first.</li>\n<li>Drill into relevant pages; follow <code>[[links]]</code>.</li>\n<li>Synthesize an answer citing wiki pages; no fresh web search unless asked.</li>\n<li>If the answer is non-trivial, offer to file it as <code>40-Resources/analysis-&lt;slug&gt;.md</code>, then update index and log.</li>\n</ol>\n<h3>lint (health check)</h3>\n<p>Report, then wait for approval before fixing.</p>\n<p>Pages:</p>\n<ul>\n<li><strong>Contradictions</strong> — pages that disagree, in prose or in claims.</li>\n<li><strong>Orphans</strong> — pages nothing links to.</li>\n<li><strong>Stale pages</strong> — <code>status: evergreen</code> with page <code>updated</code> older than 90 days.</li>\n<li><strong>Missing</strong> — concepts mentioned often with no page; missing cross-references; missing frontmatter fields.</li>\n<li><strong>Inbox backlog</strong> — captures older than 7 days.</li>\n</ul>\n<p>Claims:</p>\n<ul>\n<li><strong>Disputed</strong> — every claim with <code>status: disputed</code>, with its evidence on each side.</li>\n<li><strong>No evidence</strong> — claims with an empty <code>evidence</code> list, or a <code>source</code> that isn&#39;t in <code>raw/</code>.</li>\n<li><strong>Cross-page contradictions</strong> — two claims on different pages that assert incompatible things about the same subject.</li>\n<li><strong>Stale evergreen</strong> — <code>status: evergreen</code> claims with <code>updated</code> older than 90 days.</li>\n<li><strong>Confidence mismatch</strong> — <code>evergreen</code> claims below 0.8 confidence, or a single source with confidence above 0.8.</li>\n</ul>\n<p>Report format: one table per check — page, claim id (if any), issue, suggested fix.</p>\n<h2>5. Log format</h2>\n<p><code>log.md</code> is append-only, newest at the bottom, one line per event, greppable:</p>\n<pre><code>## [YYYY-MM-DD] &lt;op&gt; | &lt;subject&gt;\n- touched: [[page-a]], [[page-b]]\n- note: one line on what changed or why\n</code></pre>\n<p><code>&lt;op&gt;</code> is one of <code>ingest</code>, <code>query</code>, <code>lint</code>, <code>fix</code>, <code>schema</code>, <code>archive</code>, <code>claim</code>.\nFind all ingests: <code>grep &quot;] ingest&quot; log.md</code>.</p>\n<h2>6. House rules</h2>\n<ol>\n<li><strong>One idea per page.</strong> Split when a page covers two things.</li>\n<li><strong>Cite sources.</strong> Every factual claim links to a <code>raw/</code> file or a summary page; tracked claims carry <code>evidence</code>.</li>\n<li><strong>Flag uncertainty.</strong> Mark unverified claims <code>&gt; [!question]</code> and contradictions <code>&gt; [!warning]</code>.</li>\n<li><strong>Link, don&#39;t duplicate.</strong> Reference an existing page instead of restating it.</li>\n<li><strong>Never touch raw.</strong> Raw is append-only.</li>\n<li><strong>Show before saving</strong> schema changes; wiki edits are reported after.</li>\n<li><strong>Update <code>updated:</code></strong> on every edit.</li>\n</ol>\n"
     },
     "index": {
       "id": "index",
@@ -6086,7 +4677,7 @@
         "meta",
         "index"
       ],
-      "html": "<h1>Index</h1>\n<p>Catalog of every wiki page. Agents read this first on every query. One line per page: <code>link — one-line description</code>.</p>\n<h2>Entities</h2>\n<ul>\n<li><a href=\"#note/10-notes/entities/microsoft-365-e3\">microsoft-365-e3</a> — enterprise suite: O365 E3 + EMS E3 + ME3 extras</li>\n<li><a href=\"#note/10-notes/entities/office-365-e3\">office-365-e3</a> — productivity and baseline compliance layer of M365 E3</li>\n<li><a href=\"#note/10-notes/entities/ems-e3\">ems-e3</a> — identity and endpoint layer: Entra ID P1, Intune, MIP P1</li>\n<li><a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> — cloud identity; P1 brings Conditional Access, MFA, SSO</li>\n<li><a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a> — endpoint and app management (MDM, MAM, patching, compliance)</li>\n<li><a href=\"#note/10-notes/entities/microsoft-defender-for-office-365\">microsoft-defender-for-office-365</a> — email and collaboration threat protection (Plan 1)</li>\n<li><a href=\"#note/10-notes/entities/microsoft-defender-for-endpoint\">microsoft-defender-for-endpoint</a> — endpoint security; P1 is in M365 E3</li>\n<li><a href=\"#note/10-notes/entities/office-365-e1-plus\">office-365-e1-plus</a> — E1 + Entra ID P1 + Intune P1 + DLP; emerging-markets promo</li>\n<li><a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise</a> — enterprise Windows: 5-environment rights, Autopatch, BitLocker management</li>\n<li><a href=\"#note/10-notes/entities/windows-autopatch\">windows-autopatch</a> — automated ring-based Windows update service</li>\n<li><a href=\"#note/10-notes/entities/microsoft-365-copilot\">microsoft-365-copilot</a> — Graph-grounded AI assistant; add-on to O365/M365</li>\n<li><a href=\"#note/10-notes/entities/exchange-online-protection\">exchange-online-protection</a> — baseline email filtering (spam, malware, phishing)</li>\n<li><a href=\"#note/10-notes/entities/microsoft-purview\">microsoft-purview</a> — data security and compliance: DLP, labels, retention, eDiscovery</li>\n<li><a href=\"#note/10-notes/entities/microsoft-365-e5\">microsoft-365-e5</a> — top tier: Entra ID Protection, auto-labels, Defender for Cloud Apps, XDR</li>\n<li><a href=\"#note/10-notes/entities/windows-hello-for-business\">windows-hello-for-business</a> — PIN or biometric + TPM sign-in; on Pro and Enterprise</li>\n<li><a href=\"#note/10-notes/entities/microsoft-intune-suite\">microsoft-intune-suite</a> — paid add-on: EPM, Cloud PKI, Tunnel; not in E3 or E5</li>\n<li><a href=\"#note/10-notes/entities/manageengine\">manageengine</a> — third-party UEM competitor; no Entra compliance write, so no mobile device CA</li>\n<li><a href=\"#note/10-notes/entities/copilot-plus-pc\">copilot-plus-pc</a> — 40+ TOPS NPU Windows PCs; Pluton and Secured-core by default</li>\n<li><a href=\"#note/10-notes/entities/universal-print\">universal-print</a> — cloud print with no servers; in Windows Enterprise</li>\n</ul>\n<h2>Concepts</h2>\n<ul>\n<li><a href=\"#note/10-notes/concepts/m365-licensing-stack\">m365-licensing-stack</a> — M365 suites are built from smaller suites; explain them layer by layer</li>\n<li><a href=\"#note/10-notes/concepts/email-and-collaboration-protection-layers\">email-and-collaboration-protection-layers</a> — baseline EOP → MDO P1 → investigation</li>\n<li><a href=\"#note/10-notes/concepts/conditional-access\">conditional-access</a> — policy-driven if-then access decisions</li>\n<li><a href=\"#note/10-notes/concepts/mdm-vs-mam\">mdm-vs-mam</a> — manage the whole device vs only the apps</li>\n<li><a href=\"#note/10-notes/concepts/zero-trust\">zero-trust</a> — verify explicitly, least privilege, assume breach</li>\n<li><a href=\"#note/10-notes/concepts/copilot-security-readiness\">copilot-security-readiness</a> — five controls + good/better/best licensing for Copilot</li>\n<li><a href=\"#note/10-notes/concepts/enterprise-data-protection\">enterprise-data-protection</a> — work-account Copilot Chat data isn&#39;t used for training</li>\n<li><a href=\"#note/10-notes/concepts/passwordless-authentication\">passwordless-authentication</a> — WHfB, Authenticator, FIDO2; app integration is the long pole</li>\n<li><a href=\"#note/10-notes/concepts/device-compliance-signal-flow\">device-compliance-signal-flow</a> — Intune evaluates → Entra stores → CA enforces</li>\n<li><a href=\"#note/10-notes/concepts/windows-enterprise-servicing\">windows-enterprise-servicing</a> — 36-month support, pinning, Autopatch, Expedite, Hotpatch</li>\n<li><a href=\"#note/10-notes/concepts/windows-virtualization-rights\">windows-virtualization-rights</a> — 5 instances per user; AVD, W365, VDA included</li>\n</ul>\n<h2>Summaries</h2>\n<ul>\n<li><a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a> — M365 E3 feature map (O365 E3, EMS E3, ME3 extras); claims 003–005 resolved: Intune Plan 2, Tunnel and MDO P1 in E3 since July 2026</li>\n<li><a href=\"#note/40-resources/summary-mdo-plan1-feature-map\">summary-mdo-plan1-feature-map</a> — Defender for Office 365 Plan 1 capabilities</li>\n<li><a href=\"#note/40-resources/summary-o365-e1-plus-feature-map\">summary-o365-e1-plus-feature-map</a> — Office 365 E1 Plus feature map</li>\n<li><a href=\"#note/40-resources/summary-windows-11-enterprise-feature-map\">summary-windows-11-enterprise-feature-map</a> — Windows 11 Enterprise feature map</li>\n<li><a href=\"#note/40-resources/summary-elevate-security-for-copilot-e1-plus-deck\">summary-elevate-security-for-copilot-e1-plus-deck</a> — Copilot security deck: five controls, E1 Plus/E3/E5 matrix; 3 claims (1 disputed)</li>\n<li><a href=\"#note/40-resources/summary-windows-11-enterprise-l100-deck\">summary-windows-11-enterprise-l100-deck</a> — Microsoft L100 pitch: Copilot, Autopatch, Zero Trust, TEI figures</li>\n<li><a href=\"#note/40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready\">summary-windows-11-enterprise-secure-managed-cloud-ready</a> — Pro vs Enterprise E3 datasheet, Autopatch rings, Expedite, AOVPN</li>\n<li><a href=\"#note/40-resources/summary-windows-enterprise-e3-sellers-training-2023\">summary-windows-enterprise-e3-sellers-training-2023</a> — DATED: licensing mechanics, works-vs-licensed, objections</li>\n<li><a href=\"#note/40-resources/summary-windows-enterprise-value-prop-intune\">summary-windows-enterprise-value-prop-intune</a> — Intune-surfaced Windows Enterprise capabilities</li>\n<li><a href=\"#note/40-resources/summary-secure-wfh-government-m365-e3\">summary-secure-wfh-government-m365-e3</a> — government WFH pitch on E3; 1 disputed claim</li>\n<li><a href=\"#note/40-resources/summary-intune-vs-manageengine\">summary-intune-vs-manageengine</a> — why M365 data protection needs Intune at MDM and MAM layers</li>\n<li><a href=\"#note/40-resources/summary-passwordless-journey-2022\">summary-passwordless-journey-2022</a> — DATED: passwordless readiness pattern</li>\n</ul>\n<h2>MOCs</h2>\n<ul>\n<li><a href=\"#note/_meta/mocs/home\">home</a> — landing page and entry points</li>\n<li><a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a> — Microsoft 365 licensing, products and concepts</li>\n<li><a href=\"#note/_meta/mocs/moc-copilot-security-readiness\">moc-copilot-security-readiness</a> — Copilot security controls and tiers</li>\n<li><a href=\"#note/_meta/mocs/moc-windows-and-endpoint-management\">moc-windows-and-endpoint-management</a> — Windows, Intune, servicing, passwordless, competitors</li>\n</ul>\n"
+      "html": "<h1>Index</h1>\n<p>Catalog of every wiki page. Agents read this first on every query. One line per page: <code>[[link]] — one-line description</code>.</p>\n<h2>Entities</h2>\n<ul>\n<li><a href=\"#note/10-notes/entities/microsoft-365-e3\">microsoft-365-e3</a> — enterprise suite: O365 E3 + EMS E3 + ME3 extras</li>\n<li><a href=\"#note/10-notes/entities/office-365-e3\">office-365-e3</a> — productivity and baseline compliance layer of M365 E3</li>\n<li><a href=\"#note/10-notes/entities/ems-e3\">ems-e3</a> — identity and endpoint layer: Entra ID P1, Intune, MIP P1</li>\n<li><a href=\"#note/10-notes/entities/microsoft-entra-id\">microsoft-entra-id</a> — cloud identity; P1 brings Conditional Access, MFA, SSO</li>\n<li><a href=\"#note/10-notes/entities/microsoft-intune\">microsoft-intune</a> — endpoint and app management (MDM, MAM, patching, compliance)</li>\n<li><a href=\"#note/10-notes/entities/microsoft-defender-for-office-365\">microsoft-defender-for-office-365</a> — email and collaboration threat protection (Plan 1)</li>\n<li><a href=\"#note/10-notes/entities/microsoft-defender-for-endpoint\">microsoft-defender-for-endpoint</a> — endpoint security; P1 is in M365 E3</li>\n<li><a href=\"#note/10-notes/entities/office-365-e1-plus\">office-365-e1-plus</a> — E1 + Entra ID P1 + Intune P1 + DLP; emerging-markets promo</li>\n<li><a href=\"#note/10-notes/entities/windows-11-enterprise\">windows-11-enterprise</a> — enterprise Windows: 5-environment rights, Autopatch, BitLocker management</li>\n<li><a href=\"#note/10-notes/entities/windows-autopatch\">windows-autopatch</a> — automated ring-based Windows update service</li>\n<li><a href=\"#note/10-notes/entities/microsoft-365-copilot\">microsoft-365-copilot</a> — Graph-grounded AI assistant; add-on to O365/M365</li>\n<li><a href=\"#note/10-notes/entities/exchange-online-protection\">exchange-online-protection</a> — baseline email filtering (spam, malware, phishing)</li>\n<li><a href=\"#note/10-notes/entities/microsoft-purview\">microsoft-purview</a> — data security and compliance: DLP, labels, retention, eDiscovery</li>\n<li><a href=\"#note/10-notes/entities/microsoft-365-e5\">microsoft-365-e5</a> — top tier: Entra ID Protection, auto-labels, Defender for Cloud Apps, XDR</li>\n<li><a href=\"#note/10-notes/entities/windows-hello-for-business\">windows-hello-for-business</a> — PIN or biometric + TPM sign-in; on Pro and Enterprise</li>\n<li><a href=\"#note/10-notes/entities/microsoft-intune-suite\">microsoft-intune-suite</a> — paid add-on: EPM, Cloud PKI, Tunnel; not in E3 or E5</li>\n<li><a href=\"#note/10-notes/entities/manageengine\">manageengine</a> — third-party UEM competitor; no Entra compliance write, so no mobile device CA</li>\n<li><a href=\"#note/10-notes/entities/copilot-plus-pc\">copilot-plus-pc</a> — 40+ TOPS NPU Windows PCs; Pluton and Secured-core by default</li>\n<li><a href=\"#note/10-notes/entities/universal-print\">universal-print</a> — cloud print with no servers; in Windows Enterprise</li>\n</ul>\n<h2>Concepts</h2>\n<ul>\n<li><a href=\"#note/10-notes/concepts/m365-licensing-stack\">m365-licensing-stack</a> — M365 suites are built from smaller suites; explain them layer by layer</li>\n<li><a href=\"#note/10-notes/concepts/email-and-collaboration-protection-layers\">email-and-collaboration-protection-layers</a> — baseline EOP → MDO P1 → investigation</li>\n<li><a href=\"#note/10-notes/concepts/conditional-access\">conditional-access</a> — policy-driven if-then access decisions</li>\n<li><a href=\"#note/10-notes/concepts/mdm-vs-mam\">mdm-vs-mam</a> — manage the whole device vs only the apps</li>\n<li><a href=\"#note/10-notes/concepts/zero-trust\">zero-trust</a> — verify explicitly, least privilege, assume breach</li>\n<li><a href=\"#note/10-notes/concepts/copilot-security-readiness\">copilot-security-readiness</a> — five controls + good/better/best licensing for Copilot</li>\n<li><a href=\"#note/10-notes/concepts/enterprise-data-protection\">enterprise-data-protection</a> — work-account Copilot Chat data isn&#39;t used for training</li>\n<li><a href=\"#note/10-notes/concepts/passwordless-authentication\">passwordless-authentication</a> — WHfB, Authenticator, FIDO2; app integration is the long pole</li>\n<li><a href=\"#note/10-notes/concepts/device-compliance-signal-flow\">device-compliance-signal-flow</a> — Intune evaluates → Entra stores → CA enforces</li>\n<li><a href=\"#note/10-notes/concepts/windows-enterprise-servicing\">windows-enterprise-servicing</a> — 36-month support, pinning, Autopatch, Expedite, Hotpatch</li>\n<li><a href=\"#note/10-notes/concepts/windows-virtualization-rights\">windows-virtualization-rights</a> — 5 instances per user; AVD, W365, VDA included</li>\n</ul>\n<h2>Summaries</h2>\n<ul>\n<li><a href=\"#note/40-resources/summary-m365-e3-feature-map\">summary-m365-e3-feature-map</a> — M365 E3 feature map (O365 E3, EMS E3, ME3 extras); claims 003–005 resolved: Intune Plan 2, Tunnel and MDO P1 in E3 since July 2026</li>\n<li><a href=\"#note/40-resources/summary-mdo-plan1-feature-map\">summary-mdo-plan1-feature-map</a> — Defender for Office 365 Plan 1 capabilities</li>\n<li><a href=\"#note/40-resources/summary-o365-e1-plus-feature-map\">summary-o365-e1-plus-feature-map</a> — Office 365 E1 Plus feature map</li>\n<li><a href=\"#note/40-resources/summary-windows-11-enterprise-feature-map\">summary-windows-11-enterprise-feature-map</a> — Windows 11 Enterprise feature map</li>\n<li><a href=\"#note/40-resources/summary-elevate-security-for-copilot-e1-plus-deck\">summary-elevate-security-for-copilot-e1-plus-deck</a> — Copilot security deck: five controls, E1 Plus/E3/E5 matrix; 3 claims (1 disputed)</li>\n<li><a href=\"#note/40-resources/summary-windows-11-enterprise-l100-deck\">summary-windows-11-enterprise-l100-deck</a> — Microsoft L100 pitch: Copilot, Autopatch, Zero Trust, TEI figures</li>\n<li><a href=\"#note/40-resources/summary-windows-11-enterprise-secure-managed-cloud-ready\">summary-windows-11-enterprise-secure-managed-cloud-ready</a> — Pro vs Enterprise E3 datasheet, Autopatch rings, Expedite, AOVPN</li>\n<li><a href=\"#note/40-resources/summary-windows-enterprise-e3-sellers-training-2023\">summary-windows-enterprise-e3-sellers-training-2023</a> — DATED: licensing mechanics, works-vs-licensed, objections</li>\n<li><a href=\"#note/40-resources/summary-windows-enterprise-value-prop-intune\">summary-windows-enterprise-value-prop-intune</a> — Intune-surfaced Windows Enterprise capabilities</li>\n<li><a href=\"#note/40-resources/summary-secure-wfh-government-m365-e3\">summary-secure-wfh-government-m365-e3</a> — government WFH pitch on E3; 1 disputed claim</li>\n<li><a href=\"#note/40-resources/summary-intune-vs-manageengine\">summary-intune-vs-manageengine</a> — why M365 data protection needs Intune at MDM and MAM layers</li>\n<li><a href=\"#note/40-resources/summary-passwordless-journey-2022\">summary-passwordless-journey-2022</a> — DATED: passwordless readiness pattern</li>\n</ul>\n<h2>MOCs</h2>\n<ul>\n<li><a href=\"#note/_meta/mocs/home\">home</a> — landing page and entry points</li>\n<li><a href=\"#note/_meta/mocs/moc-microsoft-365-licensing\">moc-microsoft-365-licensing</a> — Microsoft 365 licensing, products and concepts</li>\n<li><a href=\"#note/_meta/mocs/moc-copilot-security-readiness\">moc-copilot-security-readiness</a> — Copilot security controls and tiers</li>\n<li><a href=\"#note/_meta/mocs/moc-windows-and-endpoint-management\">moc-windows-and-endpoint-management</a> — Windows, Intune, servicing, passwordless, competitors</li>\n</ul>\n"
     },
     "log": {
       "id": "log",
@@ -6212,7 +4803,7 @@
         "meta",
         "schema"
       ],
-      "html": "<h1>Conventions</h1>\n<h2>File naming</h2>\n<ul>\n<li>Atomic notes (entities, concepts): <code>kebab-case.md</code> — <code>azure-openai.md</code>, <code>second-brain.md</code>.</li>\n<li>Inbox captures and raw files: <code>YYYY-MM-DD-slug.md</code> — <code>2026-10-18-copilot-roadmap.md</code>.</li>\n<li>Summaries: <code>summary-&lt;slug&gt;.md</code>. Analyses: <code>analysis-&lt;slug&gt;.md</code>.</li>\n<li>Lowercase, hyphens only, no spaces or special characters, no dates in atomic note names.</li>\n</ul>\n<h2>Frontmatter</h2>\n<p>Required on every page: <code>title, type, created, updated, tags, sources, status</code>.</p>\n<pre><code class=\"language-yaml\">---\ntitle: Azure OpenAI\ntype: entity\ncreated: 2026-10-18\nupdated: 2026-10-18\ntags: [ai, microsoft, product]\nsources: [&quot;summary-azure-openai-overview&quot;]\nstatus: active\n---\n</code></pre>\n<pre><code class=\"language-yaml\">---\ntitle: 2026-10-18 Copilot roadmap note\ntype: capture\ncreated: 2026-10-18\nupdated: 2026-10-18\ntags: [inbox]\nsources: []\nstatus: draft\n---\n</code></pre>\n<p>Status values: <code>draft</code> → <code>active</code> → <code>evergreen</code>; <code>stale</code>, <code>archived</code> as needed.</p>\n<h2>Links</h2>\n<ul>\n<li>Use <code>wiki-links</code> by filename, no extension: <code>azure-openai</code>.</li>\n<li>Alias with a pipe: <code>AOAI</code>.</li>\n<li>Link to a heading: <code>second-brain#Layers</code>.</li>\n<li>Every new page links to at least one existing page and one MOC.</li>\n</ul>\n<h2>Tags</h2>\n<ul>\n<li>Lowercase, kebab-case, plural-free: <code>#ai</code>, <code>#customer</code>, <code>#modern-work</code>.</li>\n<li>Max 5 tags per page.</li>\n<li>Hierarchy with <code>/</code>: <code>#customer/acme</code>, <code>#area/sci</code>.</li>\n<li>Tags group; links relate. Don&#39;t use a tag where a link fits.</li>\n</ul>\n<h2>MOCs</h2>\n<ul>\n<li>Live in <code>_meta/MOCs/</code>.</li>\n<li>Name: <code>moc-&lt;topic&gt;.md</code>; landing page is <code>home.md</code>.</li>\n<li>Create a MOC when a topic has 5+ notes.</li>\n<li><code>home.md</code> links to every MOC.</li>\n</ul>\n<h2>Weekly Inbox processing (every Friday)</h2>\n<ul>\n<li><input disabled=\"\" type=\"checkbox\"> Open <code>00-Inbox/</code>; handle oldest first.</li>\n<li><input disabled=\"\" type=\"checkbox\"> For each capture: delete, promote to a note, or ingest as a source.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Move source material to <code>raw/</code>.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Add frontmatter and links to anything promoted.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Update relevant MOCs and <code>index.md</code>.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Append one <code>log.md</code> entry for the session.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Inbox is empty, or every leftover item has a reason.</li>\n</ul>\n"
+      "html": "<h1>Conventions</h1>\n<h2>File naming</h2>\n<ul>\n<li>Atomic notes (entities, concepts): <code>kebab-case.md</code> — <code>azure-openai.md</code>, <code>second-brain.md</code>.</li>\n<li>Inbox captures and raw files: <code>YYYY-MM-DD-slug.md</code> — <code>2026-10-18-copilot-roadmap.md</code>.</li>\n<li>Summaries: <code>summary-&lt;slug&gt;.md</code>. Analyses: <code>analysis-&lt;slug&gt;.md</code>.</li>\n<li>Lowercase, hyphens only, no spaces or special characters, no dates in atomic note names.</li>\n</ul>\n<h2>Frontmatter</h2>\n<p>Required on every page: <code>title, type, created, updated, tags, sources, status</code>.</p>\n<pre><code class=\"language-yaml\">---\ntitle: Azure OpenAI\ntype: entity\ncreated: 2026-10-18\nupdated: 2026-10-18\ntags: [ai, microsoft, product]\nsources: [&quot;[[summary-azure-openai-overview]]&quot;]\nstatus: active\n---\n</code></pre>\n<pre><code class=\"language-yaml\">---\ntitle: 2026-10-18 Copilot roadmap note\ntype: capture\ncreated: 2026-10-18\nupdated: 2026-10-18\ntags: [inbox]\nsources: []\nstatus: draft\n---\n</code></pre>\n<p>Status values: <code>draft</code> → <code>active</code> → <code>evergreen</code>; <code>stale</code>, <code>archived</code> as needed.</p>\n<h2>Links</h2>\n<ul>\n<li>Use <code>[[wiki-links]]</code> by filename, no extension: <code>[[azure-openai]]</code>.</li>\n<li>Alias with a pipe: <code>[[azure-openai|AOAI]]</code>.</li>\n<li>Link to a heading: <code>[[second-brain#Layers]]</code>.</li>\n<li>Every new page links to at least one existing page and one MOC.</li>\n</ul>\n<h2>Tags</h2>\n<ul>\n<li>Lowercase, kebab-case, plural-free: <code>#ai</code>, <code>#customer</code>, <code>#modern-work</code>.</li>\n<li>Max 5 tags per page.</li>\n<li>Hierarchy with <code>/</code>: <code>#customer/acme</code>, <code>#area/sci</code>.</li>\n<li>Tags group; links relate. Don&#39;t use a tag where a link fits.</li>\n</ul>\n<h2>MOCs</h2>\n<ul>\n<li>Live in <code>_meta/MOCs/</code>.</li>\n<li>Name: <code>moc-&lt;topic&gt;.md</code>; landing page is <code>home.md</code>.</li>\n<li>Create a MOC when a topic has 5+ notes.</li>\n<li><code>home.md</code> links to every MOC.</li>\n</ul>\n<h2>Weekly Inbox processing (every Friday)</h2>\n<ul>\n<li><input disabled=\"\" type=\"checkbox\"> Open <code>00-Inbox/</code>; handle oldest first.</li>\n<li><input disabled=\"\" type=\"checkbox\"> For each capture: delete, promote to a note, or ingest as a source.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Move source material to <code>raw/</code>.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Add frontmatter and links to anything promoted.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Update relevant MOCs and <code>index.md</code>.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Append one <code>log.md</code> entry for the session.</li>\n<li><input disabled=\"\" type=\"checkbox\"> Inbox is empty, or every leftover item has a reason.</li>\n</ul>\n"
     },
     "_meta/mocs/home": {
       "id": "_meta/mocs/home",
